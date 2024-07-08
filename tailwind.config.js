@@ -1,4 +1,5 @@
 const theme = require("./src/config/theme.json");
+const typography = require("@tailwindcss/typography");
 
 let font_base = Number(theme.fonts.font_size.base.replace("px", ""));
 let font_scale = Number(theme.fonts.font_size.scale);
