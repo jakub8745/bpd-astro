@@ -185,3 +185,60 @@
 footer p a {
   @apply transition-all duration-200 hover:text-white;
 }
+
+.title {
+  font-size: 7.7em;
+  font-family: 'Playfair Display', serif;
+  text-align: center;
+  color: #434343;
+  text-decoration: none;
+  transition: color 0.3s;
+  line-height: 1.0731707317;
+  letter-spacing: -.055em;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.title:hover {
+  color: #3781d0;
+}
+
+.subtitle {
+  font-family: 'Source Sans Pro', sans-serif;
+  text-align: center;
+  color: #717171;
+  font-weight: 700;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.title {
+  display: block;
+  font-size: 7.7em;
+  font-family: 'Playfair Display', serif;
+  text-align: center;
+  color: #434343;
+  text-decoration: none;
+  transition: color 0.3s;
+  line-height: 1.0731707317;
+  letter-spacing: -.055em;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.title:hover {
+  color: #3781d0;
+}
+
+.subtitle {
+  font-family: 'Source Sans Pro', sans-serif;
+  text-align: center;
+  color: #717171;
+  font-weight: 700;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
