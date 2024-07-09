@@ -17,10 +17,10 @@
   },
   "fonts": {
     "font_family": {
-      "primary": "Mulish:wght@400;600;700",
+      "primary": "Source+Sans+Pro:wght@400;600;700",
       "primary_type": "sans-serif",
-      "secondary": "",
-      "secondary_type": ""
+      "secondary": "Ubuntu+Sans",
+      "secondary_type": "sans-serif"
     },
     "font_size": {
       "base": "16",

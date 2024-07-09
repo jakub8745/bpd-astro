@@ -1,0 +1,31 @@
+{
+      "name": "3D exhibitions",
+      "url": "",
+      "hasChildren": true,
+      "children": [
+        {
+          "name": "The exhibition 'Vincenz's Dialogues - Views' ",
+          "url": "/vincenzs-dialogues-views"
+        },
+        {
+          "name": "webGl/webXR art installation 'Milkmaid's Pitcher'",
+          "url": "/milkmaids-pitcher"
+        },
+        {
+          "name": "Tags",
+          "url": "/tags"
+        },
+        {
+          "name": "Elements",
+          "url": "/elements"
+        },
+        {
+          "name": "Contact",
+          "url": "/contact"
+        },
+        {
+          "name": "Privacy Policy",
+          "url": "/privacy-policy"
+        }
+      ]
+    }

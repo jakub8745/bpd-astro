@@ -9,33 +9,52 @@
       "url": "/about"
     },
     {
-      "name": "Contact",
-      "url": "/contact"
-    },
-    {
-      "name": "Pages",
+      "name": "3D exhibitions",
       "url": "",
       "hasChildren": true,
       "children": [
         {
-          "name": "Authors",
-          "url": "/authors"
+          "name": "The exhibition 'Vincenz's Dialogues - Views' ",
+          "url": "/vincenzs-dialogues-views"
         },
         {
-          "name": "Categories",
-          "url": "/categories"
+          "name": "webGl/webXR art installation 'Milkmaid's Pitcher'",
+          "url": "/milkmaids-pitcher"
         },
         {
-          "name": "Tags",
-          "url": "/tags"
+          "name": "The Dystopia of an Imitation by Jaroslaw Solecki",
+          "url": "/dystopia-of-imitation"
         },
         {
-          "name": "Elements",
-          "url": "/elements"
+          "name": "Norwid – szkice",
+          "url": "/norwid-szkice"
         },
         {
-          "name": "Privacy Policy",
-          "url": "/privacy-policy"
+          "name": "Images of Identity",
+          "url": "/images-of-identity"
+        },
+        {
+          "name": "WAKE-UP CALL",
+          "url": "/wake-up-call"
+        },
+        {
+          "name": "Lockdowns by Joanna Ciechanowska",
+          "url": "/lockdowns-ciechanowska"
+        }
+      ]
+    },
+    {
+      "name": " Educational Exhibitions",
+      "url": "",
+      "hasChildren": true,
+      "children": [
+        {
+          "name": "Dialogue on Fate and Soul. Stanisław Vincenz (1888–1971)",
+          "url": "/fate-and-soul"
+        },
+        {
+          "name": "Norwid – szkice",
+          "url": "/norwid-szkice"
         }
       ]
     }

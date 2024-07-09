@@ -1,15 +1,15 @@
 ---
-title: "Why a balloon is a flexible bag that can be inflated with a gas"
+title: "Dialogue on Fate and Soul. Stanisław Vincenz (1888–1971)"
 description: "meta description"
-date: 2022-04-04T16:56:47+06:00
-image: "/images/posts/04.jpg"
+date: 2022-04-05T16:56:47+06:00
+image: "/images/posts/05.jpg"
 draft: false
-authors: ["Mark Dinn"]
-tags: ["Balloon", "Gas"]
-categories: ["Accessories"]
+authors: ["John Doe"]
+tags: ["Food", "Gold"]
+categories: ["Food"]
 ---
 
-A balloon is a flexible bag that can be inflated with a gas, such as helium, hydrogen, nitrous oxide, oxygen, and air. For special tasks, balloons can be filled with smoke, liquid water, granular media, or light sources.
+Dialogue on Fate and Soul. Stanisław Vincenz (1888–1971) is an elongated, edible fruit – botanically a berry – produced by several kinds of large herbaceous flowering plants in the genus Musa. In some countries, bananas used for cooking may be called "plantains", distinguishing them from dessert bananas.
 
 Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo vel ad consectetur ut aperiam. Itaque eligendi natus aperiam? Excepturi repellendus consequatur quibusdam optio expedita praesentium est adipisci dolorem ut eius!
 
