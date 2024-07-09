@@ -20,13 +20,26 @@ const { main }: { main: NavigationLink[] } = menu;
 
 <header class="header pt-6">
   <!-- logo -->
-  <div class="order-0">
+  <div class="order-0 mx-auto text-center">
     <Logo />
-    <a href="/" class="title">BLUE POINT ART</a>
-    <p class="subtitle">DIGITAL ENVIRONMENT FOR DOCUMENTARY, EDUCATIONAL AND CREATIVE ACTIVITIES</p>
+    <a
+      href="/"
+      class="title text-title font-playfair text-center text-title no-underline transition-colors duration-300 leading-title-line-height tracking-tightest font-black uppercase hover:text-hoverColor mb-9"
+    >
+      BLUE POINT ART</a
+    >
+    <p
+      class="subtitle font-primary text-center text-subtitle font-normal tracking-widest uppercase text-subtitle mt-6 mb-5"
+    >
+      DIGITAL ENVIRONMENT FOR DOCUMENTARY, EDUCATIONAL AND CREATIVE ACTIVITIES
+    </p>
   </div>
+<div class="order-1 border border-gray-300">
+  <nav class="navbar container flex justify-center flex-wrap ">
+     <!-- left and right borders -->
+  <div class="absolute inset-y-0 left-0 border-l border-gray-300"></div>
+  <div class="absolute inset-y-0 right-0 border-r border-gray-300"></div>
   
-  <nav class="navbar container flex justify-center flex-wrap">
     <!-- navbar toggler -->
     <input id="nav-toggle" type="checkbox" class="hidden" />
     <label
@@ -48,8 +61,7 @@ const { main }: { main: NavigationLink[] } = menu;
         <title>Menu Close</title>
         <polygon
           points="11 9 22 9 22 11 11 11 11 22 9 22 9 11 -2 11 -2 9 9 9 9 -2 11 -2"
-          transform="rotate(45 10 10)"
-        ></polygon>
+          transform="rotate(45 10 10)"></polygon>
       </svg>
     </label>
     <!-- /navbar toggler -->
@@ -58,37 +70,37 @@ const { main }: { main: NavigationLink[] } = menu;
       id="nav-menu"
       class="navbar-nav order-3 hidden w-full md:order-1 md:flex md:w-auto"
     >
-      {main.map((menu) => (
-        <>
-          {menu.hasChildren ? (
-            <li class="nav-item nav-dropdown group relative cursor-pointer">
-              <span class="nav-link inline-flex items-center">
-                {menu.name}
-                <svg class="h-5 w-5 fill-current" viewBox="0 0 20 20">
-                  <path
-                    d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"
-                  ></path>
-                </svg>
-              </span>
-              <ul class="nav-dropdown-list hidden group-hover:block md:invisible md:absolute md:block md:opacity-0 md:group-hover:visible md:group-hover:opacity-100">
-                {menu.children?.map((child) => (
-                  <li class="nav-dropdown-item">
-                    <a href={child.url} class="nav-dropdown-link">
-                      {child.name}
-                    </a>
-                  </li>
-                ))}
-              </ul>
-            </li>
-          ) : (
-            <li class="nav-item">
-              <a href={menu.url} class="nav-link block">
-                {menu.name}
-              </a>
-            </li>
-          )}
-        </>
-      ))}
+      {
+        main.map((menu) => (
+          <>
+            {menu.hasChildren ? (
+              <li class="nav-item nav-dropdown group relative cursor-pointer">
+                <span class="nav-link inline-flex items-center">
+                  {menu.name}
+                  <svg class="h-5 w-5 fill-current" viewBox="0 0 20 20">
+                    <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
+                  </svg>
+                </span>
+                <ul class="nav-dropdown-list hidden group-hover:block md:invisible md:absolute md:block md:opacity-0 md:group-hover:visible md:group-hover:opacity-100">
+                  {menu.children?.map((child) => (
+                    <li class="nav-dropdown-item">
+                      <a href={child.url} class="nav-dropdown-link">
+                        {child.name}
+                      </a>
+                    </li>
+                  ))}
+                </ul>
+              </li>
+            ) : (
+              <li class="nav-item">
+                <a href={menu.url} class="nav-link block">
+                  {menu.name}
+                </a>
+              </li>
+            )}
+          </>
+        ))
+      }
     </ul>
     <div class="order-1 ml-auto flex md:order-2 md:ml-0">
       <a
@@ -101,5 +113,5 @@ const { main }: { main: NavigationLink[] } = menu;
       </a>
     </div>
   </nav>
+</div>
 </header>
-

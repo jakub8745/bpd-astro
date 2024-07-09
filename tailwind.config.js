@@ -49,6 +49,16 @@ module.exports = {
         border: theme.colors.default.theme_color.border,
         "theme-light": theme.colors.default.theme_color.theme_light,
         "theme-dark": theme.colors.default.theme_color.theme_dark,
+        title: '#434343',
+        subtitle: '#717171',
+        hoverColor: '#3781d0',
+      },
+      lineHeight: {
+        'title-line-height': '1.0731707317',
+      },
+      letterSpacing: {
+        tightest: '-.055em',
+        widest: '3px',
       },
       fontSize: {
         base: font_base + "px",
@@ -61,10 +71,15 @@ module.exports = {
         h4: h4 + "rem",
         h5: h5 + "rem",
         h6: h6 + "rem",
+        title: '7em',
+        subtitle: '1.3em',
+
       },
       fontFamily: {
         primary: [fontPrimary, fontPrimaryType],
         secondary: [fontSecondary, fontSecondaryType],
+        playfair: ['Myplayfair Display', 'serif'],
+
       },
     },
   },
@@ -83,3 +98,6 @@ module.exports = {
     }),
   ],
 };
+
+
+
