@@ -1,10 +1,6 @@
 {
   "main": [
     {
-      "name": "Home",
-      "url": "/"
-    },
-    {
       "name": "About",
       "url": "/about"
     },
@@ -44,7 +40,7 @@
       ]
     },
     {
-      "name": " Educational Exhibitions",
+      "name": "Educational Exhibitions",
       "url": "",
       "hasChildren": true,
       "children": [
@@ -57,6 +53,29 @@
           "url": "/norwid-szkice"
         }
       ]
+    },
+    {
+      "name": "Publishing",
+      "url": "",
+      "hasChildren": true,
+      "children": [
+        {
+          "name": "Towards rediscovery: LOCKDOWNS – Joanna Ciechanowska, Justyna Gorzkowicz",
+          "url": "/publishing-towards-rediscovery"
+        },
+        {
+          "name": "The Dystopia of an Imitation – Jarosław Solecki, ed. Justyna Gorzkowicz",
+          "url": "/publishing-dystopia-of-imitation"
+        }
+      ]
+    },
+    {
+      "name": "Contact",
+      "url": "/contact"
+    },
+    {
+      "name": "Privacy Policy",
+      "url": "/privacy-policy"
     }
   ],
   "footer": [

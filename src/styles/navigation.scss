@@ -26,19 +26,22 @@ input#nav-toggle:checked~#nav-menu {
 }
 
 .nav-item {
-  @apply mx-1;
+  @apply mx-1 uppercase;
 }
 
 .nav-link {
-  @apply p-3 text-lg font-semibold text-dark transition hover:text-primary md:p-4;
+  @apply p-3 text-lg font-semibold text-dark transition hover:text-primary md:p-4 ;
 }
 
 .nav-dropdown-list {
   @apply z-10 rounded-lg bg-white px-6 py-3 shadow transition;
 }
-
 .nav-dropdown-item {
-  @apply mb-1;
+  @apply mb-1 transition-transform;
+}
+
+.nav-dropdown-item:hover {
+  @apply translate-x-[3px];
 }
 
 .nav-dropdown-link {

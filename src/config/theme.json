@@ -2,7 +2,7 @@
   "colors": {
     "default": {
       "theme_color": {
-        "primary": "#01AD9F",
+        "primary": "#3781d0",
         "body": "#fff",
         "border": "#D5D5D5",
         "theme_light": "#FAFAFA",
@@ -24,7 +24,7 @@
     },
     "font_size": {
       "base": "16",
-      "scale": "1.250"
+      "scale": "1"
     }
   }
 }
