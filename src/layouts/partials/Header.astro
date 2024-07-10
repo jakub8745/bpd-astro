@@ -24,7 +24,7 @@ const { main }: { main: NavigationLink[] } = menu;
     <Logo />
     <a
       href="/"
-      class="title text-4xl sm:text-5xl md:text-6xl font-playfair text-center no-underline transition-colors duration-300 leading-tight sm:leading-tightest md:leading-title-line-height tracking-tightest font-black uppercase hover:text-hoverColor mb-4 sm:mb-6 md:mb-9"
+      class="title text-5xl sm:text-6xl md:text-8xl font-playfair text-center no-underline transition-colors duration-300 leading-tight md:leading-title-line-height tracking-tightest font-black uppercase hover:text-hoverColor mb-4 sm:mb-6 md:mb-9"
     >
       BLUE POINT ART
     </a>
@@ -36,14 +36,14 @@ const { main }: { main: NavigationLink[] } = menu;
   </div>
   <div class="order-1 border border-gray-300">
     <nav
-      class="navbar container flex justify-center flex-wrap border-l border-gray-300 border-r border-gray-300"
+      class="navbar container flex justify-between items-center flex-wrap border-l border-gray-300 border-r border-gray-300"
     >
       <!-- navbar toggler -->
       <input id="nav-toggle" type="checkbox" class="hidden" />
       <label
         id="show-button"
         for="nav-toggle"
-        class="order-2 flex cursor-pointer items-center text-black md:order-1 md:hidden"
+        class="order-1 flex cursor-pointer items-center text-black md:order-1 lg:order-1 xl:hidden 2xl:hidden 3xl:hidden 4xl:hidden"
       >
         <svg class="h-6 fill-current" viewBox="0 0 20 20">
           <title>Menu Open</title>
@@ -53,7 +53,7 @@ const { main }: { main: NavigationLink[] } = menu;
       <label
         id="hide-button"
         for="nav-toggle"
-        class="order-2 hidden cursor-pointer items-center text-black md:order-1"
+        class="order-1 hidden cursor-pointer items-center text-black md:order-1 lg:order-1 xl:hidden 2xl:hidden 3xl:hidden 4xl:hidden"
       >
         <svg class="h-6 fill-current" viewBox="0 0 20 20">
           <title>Menu Close</title>
@@ -66,7 +66,7 @@ const { main }: { main: NavigationLink[] } = menu;
 
       <ul
         id="nav-menu"
-        class="navbar-nav order-3 hidden w-full md:order-1 md:flex md:w-auto"
+        class="navbar-nav order-3 hidden w-full md:order-2 lg:order-2 xl:flex xl:w-auto 2xl:w-auto 3xl:w-auto 4xl:w-auto"
       >
         {
           main.map((menu) => (
@@ -100,12 +100,12 @@ const { main }: { main: NavigationLink[] } = menu;
           ))
         }
       </ul>
-      <div class="order-1 ml-auto flex md:order-2 md:ml-0">
+      <div class="order-2 ml-auto flex">
         <a
           class="mr-4 inline-block cursor-pointer p-2 text-xl text-dark transition hover:text-primary md:mr-0"
           href="/search"
-          title="seach"
-          aria-label="seach"
+          title="search"
+          aria-label="search"
         >
           <IoSearch />
         </a>
