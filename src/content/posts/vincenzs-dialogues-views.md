@@ -2,7 +2,7 @@
 title: "The exhibition 'Vincenz's Dialogues - Views'"
 description: "meta description"
 date: 2022-04-07T05:00:00Z
-image: "/public/images/posts/20240710_012949_vincenzCipriani.jpg"
+image: "https://gateway.bluepointart.uk/ipfs/bafkreichmkxpte5zsc4xhzjxlhgndf5umyklfepvezxyitmjhlghxibiqi"
 categories: ["photography"]
 authors: ["Mark Dinn"]
 tags: ["Vincenz", "Lidio Cipriani", "Hutsul region", "ethnographic", "documentation", "photography", "3D exhibit"]
