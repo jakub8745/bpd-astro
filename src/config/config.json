@@ -1,7 +1,7 @@
 {
   "site": {
-    "title": "Bookworm Light Astro | Blog Template",
-    "base_url": "https://bookworm-light-astro.vercel.app",
+    "title": "Blue Point Art Projects Website",
+    "base_url": "https://bluepointart.uk",
     "base_path": "/",
     "trailing_slash": false,
     "favicon": "/images/favicon.png",
