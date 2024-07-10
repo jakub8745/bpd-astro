@@ -1,22 +1,14 @@
 ---
-title: "vincenzs-dialogues-views"
+title: "The exhibition 'Vincenz's Dialogues - Views'"
 description: "meta description"
 date: 2022-04-07T05:00:00Z
-image: "/images/posts/01.jpg"
-categories: ["art"]
+image: "/public/images/posts/20240710_012949_vincenzCipriani.jpg"
+categories: ["photography"]
 authors: ["Mark Dinn"]
-tags: ["diy", "toy"]
+tags: ["Vincenz", "Lidio Cipriani", "Hutsul region", "ethnographic", "documentation", "photography", "3D exhibit"]
 draft: false
 ---
+The exhibition 'Vincenz's Dialogues - Views' presents a fascinating series of photographs by Lidio Cipriani, who, following in the footsteps of Stanisław Vincenz, presented the Hutsul region in a completely new light. At the exhibition, we will see unusual photographs that go beyond the boundaries of traditional ethnographic and touring documentation.
+The photographs are from the Lidio Cipriani archive, owned by Professor Jacopo Moggi-Cecchi of the University of Florence. We sincerely thank them for sharing the photos with us.
 
-vincenzs-dialogues-views Nemo vel ad consectetur namut rutrum ex, venenatis sollicitudin urna. Aliquam erat volutpat. Integer eu ipsum sem. Ut bibendum lacus vestibulum maximus suscipit. Quisque vitae nibh iaculis neque blandit euismod.
-
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo vel ad consectetur ut aperiam. Itaque eligendi natus aperiam? Excepturi repellendus consequatur quibusdam optio expedita praesentium est adipisci dolorem ut eius!
-
-## Creative Design
-
-Nam ut rutrum ex, venenatis sollicitudin urna. Aliquam erat volutpat. Integer eu ipsum sem. Ut bibendum lacus vestibulum maximus suscipit. Quisque vitae nibh iaculis neque blandit euismod.
-
-> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo vel ad consectetur ut aperiam. Itaque eligendi natus aperiam? Excepturi repellendus consequatur quibusdam optio expedita praesentium est adipisci dolorem ut eius!
-
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo vel ad consectetur ut aperiam. Itaque eligendi natus aperiam? Excepturi repellendus consequatur quibusdam optio expedita praesentium est adipisci dolorem ut eius!
+[![](../../../public/images/posts/20240710_012949_vincenzCipriani.jpg)](https://vincenz.bluepointart.uk)
