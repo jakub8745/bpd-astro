@@ -51,7 +51,7 @@ module.exports = {
         border: theme.colors.default.theme_color.border,
         "theme-light": theme.colors.default.theme_color.theme_light,
         "theme-dark": theme.colors.default.theme_color.theme_dark,
-        title: '#434343',
+        titleColor: '#434343',
         subtitle: '#717171',
         hoverColor: '#3781d0',
       },

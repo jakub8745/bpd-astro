@@ -1,22 +1,23 @@
 ---
-title: "milkmaids-pitcher"
+title: "webGl/webXR art installation 'Milkmaid's Pitcher' "
 description: "meta description"
 date: 2022-04-06T16:56:47+06:00
-image: "/images/posts/06.jpg"
+image: "/images/posts/MilkmaidsPitcher1200.jpg"
 draft: false
 authors: ["Mark Dinn"]
 tags: ["Alarm", "Clock"]
 categories: ["LifeStyle"]
 ---
-milkmaids-pitcher
-Almost every day for the past nine or so months has felt like March 13, and that can sometimes make it difficult to want to wake up for the day ahead of you.
+The art installation 'Milkmaids Pitcher' was created during nights&weekends - a six-week programme organised by Buildspace in which we brought our various ideas to life. It was not easy! I was so busy building my installation
+that I didn't have enough time for social media. As a result, I finished in 200th place. I was competing against 3500 other ideas. That's not bad, is it? I had an idea for an art object. Purely artistic, conceptual.
 
-To make a morning person out of you, the wake-up light simulates the sunrise to gradually ease you awake. This allows you to wake up more naturally rather than being jolted awake by the default iPhone alarm sound, which honestly triggers my fight or flight response.
+![webGl/webXR art installation 'Milkmaid's Pitcher](/images/posts/20240710_234326_03_MilkmaidsPitcher1200.jpg)
 
-### Creative Design
+Not that I'm not horrified by humanity's social, climate or health problems, but I've never been, I'm not, and I'm not likely to be a good activist, so I'll leave that to others. What interested me was whether it would be possible to divide one of my sculptures - the milkmaid's pitcher - and place each part in different virtual worlds. So that when we combine these parts conceptually or in our imagination, we are in a way combining different, often completely different worlds.
 
-Nam ut rutrum ex, venenatis sollicitudin urna. Aliquam erat volutpat. Integer eu ipsum sem. Ut bibendum lacus vestibulum maximus suscipit. Quisque vitae nibh iaculis neque blandit euismod.
+![webGl/webXR art installation 'Milkmaid's Pitcher](/images/posts/20240710_234646_04_MilkmaidsPitcher1200.jpg)
 
-> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo vel ad consectetur ut aperiam. Itaque eligendi natus aperiam? Excepturi repellendus consequatur quibusdam optio expedita praesentium est adipisci dolorem ut eius!
+A bit like in those fractions of a second when we are no longer asleep and still feel the reality of sleep, as if two states of concentration exist simultaneously.
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo vel ad consectetur ut aperiam. Itaque eligendi natus aperiam? Excepturi repellendus consequatur quibusdam optio expedita praesentium est adipisci dolorem ut eius!
+![webGl/webXR art installation 'Milkmaid's Pitcher](/images/posts/20240710_234806_05_MilkmaidsPitcher1200.jpg?version%3D1720651788739)
+
