@@ -5,7 +5,7 @@ date: 2024-06-16T16:56:47+06:00
 image: "/images/posts/20240712_205629_dariah2024-virtualGallery1200.jpg"
 draft: false
 authors: ["J. Gorzkowicz", "J. Solecki"]
-tags: ["Food", "Gold"]
+tags: ["DARIAH", "Workflow", "Lisbon", "2024", "Reproducible Artistic Research"]
 categories: ["Food"]
 ---
 Showcasing the Blue Point Gallery Workflow at DARIAH 2024
