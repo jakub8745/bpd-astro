@@ -41,6 +41,13 @@ module.exports = {
       padding: "2rem",
     },
     extend: {
+      center: {
+        '.image': {
+          display: 'block',
+          marginLeft: 'auto',
+          marginRight: 'auto',
+        },
+      },
       colors: {
         text: theme.colors.default.text_color.default,
         light: theme.colors.default.text_color.light,
@@ -86,6 +93,19 @@ module.exports = {
     },
   },
   plugins: [
+
+    function ({ addUtilities }) {
+      const newUtilities = {
+        '.img-center': {
+          display: 'block',
+          marginLeft: 'auto',
+          marginRight: 'auto',
+        },
+      }
+
+      addUtilities(newUtilities, ['responsive', 'hover'])
+    },
+
     require("@tailwindcss/typography"),
     require("@tailwindcss/forms"),
     require("tailwind-bootstrap-grid")({

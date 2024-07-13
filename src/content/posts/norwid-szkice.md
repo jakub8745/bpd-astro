@@ -8,15 +8,21 @@ authors: ["Mark Dinn"]
 tags: ["Balloon", "Gas"]
 categories: ["Accessories"]
 ---
+### Zapraszamy do oglądania wystawy rysunków i akwafort Cypriana Norwida.
 
-Norwid – szkice   A balloon is a flexible bag that can be inflated with a gas, such as helium, hydrogen, nitrous oxide, oxygen, and air. For special tasks, balloons can be filled with smoke, liquid water, granular media, or light sources.
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo vel ad consectetur ut aperiam. Itaque eligendi natus aperiam? Excepturi repellendus consequatur quibusdam optio expedita praesentium est adipisci dolorem ut eius!
 
-### Creative Design
+[![Exhibition 'Norwid – szkice'](</images/posts/Norwid – szkice-1536x629.jpg>)](https://norwid.szkice.bluepointart.uk/)
+#### [Wystawa 'Norwid-szkice']( https://norwid.szkice.bluepointart.uk/) https://norwid.szkice.bluepointart.uk/
 
-Nam ut rutrum ex, venenatis sollicitudin urna. Aliquam erat volutpat. Integer eu ipsum sem. Ut bibendum lacus vestibulum maximus suscipit. Quisque vitae nibh iaculis neque blandit euismod.
+W 1852 Londyn, w tułaczej wędrówce poety, stanowił przystanek przed opuszczeniem Europy i podróżą do Stanów Zjednoczonych. Zamiarem organizatorów jest zainteresowanie twórczością ostatniego wielkiego z pokolenia romantyków, który uważał, że najważniejszym zadaniem sztuki jest dążenie do prawdy i budzenie sumień.
 
-> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo vel ad consectetur ut aperiam. Itaque eligendi natus aperiam? Excepturi repellendus consequatur quibusdam optio expedita praesentium est adipisci dolorem ut eius!
+Projekt odwołujący się do tej wizji, obejmował do tej pory [międzynarodową konferencję online](), [wystawę szkiców Norwida w wirtualnej Galerii 3D Blue Point Art](https://norwid.szkice.bluepointart.uk/) oraz recital poezji norwidowskiej . Projekt jest skierowany zarówno do znawców, jak i miłośników literatury i kultury artystycznej. W sposób szczególny zapraszamy na konferencję społeczność polską zamieszkałą na emigracji – ze względu na miejsce konferencji, w tym naukowców z różnych dziedzin, obserwatorów życia emigracyjnego, przedstawicieli organizacji i instytucji polonijnych.
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo vel ad consectetur ut aperiam. Itaque eligendi natus aperiam? Excepturi repellendus consequatur quibusdam optio expedita praesentium est adipisci dolorem ut eius!
+#### [MEDIA SPOŁECZNOŚCIOWE PROJEKTU: https://www.facebook.com/NorwidwLondynie](https://www.facebook.com/NorwidwLondynie)
+
+#### [KANAŁ YOUTUBE PROJEKTU: https://www.youtube.com/channel/UC-EIoH6aGYQFSNrSq12HtJQ](https://www.youtube.com/channel/UC-EIoH6aGYQFSNrSq12HtJQ)
+
+
+[Conference Post](/norwid-szkice)
+ 

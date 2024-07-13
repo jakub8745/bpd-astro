@@ -1,6 +1,6 @@
 ---
-title: Mark Dinn
-image: /images/authors/mark-dinn.jpg
+title: Justyna Gorzkowicz
+image: /images/authors/john-doe.jpg
 description: this is meta description
 social:
   facebook: https://www.facebook.com/
