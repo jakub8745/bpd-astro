@@ -12,3 +12,4 @@ The exhibition 'Vincenz's Dialogues - Views' presents a fascinating series of ph
 The photographs are from the Lidio Cipriani archive, owned by Professor Jacopo Moggi-Cecchi of the University of Florence. We sincerely thank them for sharing the photos with us.
 
 [![](../../../public/images/posts/20240710_012949_vincenzCipriani.jpg)](https://vincenz.bluepointart.uk)
+[https://vincenz.bluepointart.uk](https://vincenz.bluepointart.uk)

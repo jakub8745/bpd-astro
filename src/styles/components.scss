@@ -89,6 +89,14 @@
 
 }
 
+a {
+  @apply text-3xl font-semibold;
+}
+
+a:hover {
+  @apply text-hoverColor;
+}
+
 // tab
 .tab {
   @apply overflow-hidden rounded-lg border border-border;
