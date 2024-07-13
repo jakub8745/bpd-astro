@@ -1,8 +1,8 @@
 ---
 title: "Norwid – szkice"
 description: "meta description"
-date: 2022-04-04T16:56:47+06:00
-image: "/images/posts/04.jpg"
+date: 2021-04-01T16:56:47+06:00
+image: "/images/posts/Norwid – szkice-1536x629.jpg"
 draft: false
 authors: ["Mark Dinn"]
 tags: ["Balloon", "Gas"]

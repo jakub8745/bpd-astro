@@ -1,7 +1,7 @@
 ---
 title: "the dystopia of an imitation by Jarek Solecki"
 description: "meta description"
-date: 2022-07-22T16:56:47+06:00
+date: 2022-07-02T16:56:47+06:00
 image: "/images/posts/DystopiaOfImitation_web.jpg"
 draft: false
 authors: ["Jaroslaw Solecki"]

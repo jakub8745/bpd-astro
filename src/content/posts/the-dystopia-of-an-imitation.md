@@ -1,7 +1,7 @@
 ---
 title: "the dystopia of an imitation"
 description: "meta description"
-date: 2022-05-25T16:56:47+06:00
+date: 2022-04-25T16:56:47+06:00
 image: "/images/posts/theMilkmate01.jpg"
 draft: false
 authors: ["Jaroslaw Solecki"]

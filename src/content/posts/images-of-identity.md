@@ -1,22 +1,57 @@
 ---
-title: images-of-identity
+title: "Images of Identity"
 description: "meta description"
-date: 2022-04-03T06:00:00+00:00
-image: "/images/posts/03.jpg"
+date: 2020-12-18T06:00:00+00:00
+image: "/images/posts/IdentityInBluePointArt06.jpg"
 categories: ["art"]
 authors: ["Mark Dinn"]
 tags: ["diy", "toy"]
 draft: false
 ---
 
-images-of-identity Nemo vel ad consectetur namut rutrum ex, venenatis sollicitudin urna. Aliquam erat volutpat. Integer eu ipsum sem. Ut bibendum lacus vestibulum maximus suscipit. Quisque vitae nibh iaculis neque blandit euismod.
+The project aims to combine activities in the field of visual arts with interdisciplinary considerations in the spectrum of various fields of humanities and social sciences. The theoretical approach of the scientists and artists meeting has become the question of “identity”. The most important issues which are still “in the process”, concerning all areas of human life: its artistic, cultural, social, religious or scientific activities.
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo vel ad consectetur ut aperiam. Itaque eligendi natus aperiam? Excepturi repellendus consequatur quibusdam optio expedita praesentium est adipisci dolorem ut eius!
+Curators: Krzysztof Gil, Justyna Gorzkowicz
+Artists: 
+➤ NATALIA KOPYTKO – An image of an identity built from memories – Unreal Places
+➤ MAŁGORZATA WIELEK-MANDRELA – Image of Identity Through a Creative Act
+➤ KRZYSZTOF GIL – Dual Identity Image
+➤ KRZYSZTOF MARCHLAK – A non-heteronormative identity image
+➤ ŁUKASZ MURZYN – Image of a Local-Personal Identity – Heritage
 
-## Creative Design
+The virtual exhibition [‘Images of Identity’ (18.12.2020-18.02.2021 at 3D Blue Point Art Gallery, PUNO London)]() and [conference ‘Our Everyday Identity’](/images-of-identity-conference)  (11-12.12.2020) were parts of the interdisciplinary research project: “The Question of ‘Identity’ in an Interdisciplinary Approach″. The project was carried out in cooperation with the Institute of European Culture of the Polish University Abroad of the Ignacy Jan Paderewski in London (PUNO) and the Institute of Painting and Artistic Education of Art Department of the Pedagogical University of the National Commission in Cracow (UP)
 
-Nam ut rutrum ex, venenatis sollicitudin urna. Aliquam erat volutpat. Integer eu ipsum sem. Ut bibendum lacus vestibulum maximus suscipit. Quisque vitae nibh iaculis neque blandit euismod.
+[Download PDF: Invitation_details](https://gateway.bluepointart.uk/ipfs/bafkreihqp77b4nai7qe737c5vq76t3xd5gkru7gshibebyyijckzjdetia)
+[Do ściagnięcia PDF: Zaproszenie_Szczegoly](https://gateway.bluepointart.uk/ipfs/bafkreihqp77b4nai7qe737c5vq76t3xd5gkru7gshibebyyijckzjdetia)
 
-> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo vel ad consectetur ut aperiam. Itaque eligendi natus aperiam? Excepturi repellendus consequatur quibusdam optio expedita praesentium est adipisci dolorem ut eius!
+<p class="custom-img-desc">
+  <img class="custom-img" src="/images/posts/IdentityInBluePointArt-Natalia_Kopytko.jpg" alt="NATALIA KOPYTKO – An image of an identity built from memories – Unreal Places">
+  <br>
+  NATALIA KOPYTKO – An image of an identity built from memories – <em>Unreal Places</em>
+</p>
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo vel ad consectetur ut aperiam. Itaque eligendi natus aperiam? Excepturi repellendus consequatur quibusdam optio expedita praesentium est adipisci dolorem ut eius!
+<p class="custom-img-desc">
+  <img class="custom-img" src="/images/posts/IdentityInBluePointArt04-Małgorzata_Wielak.jpg" alt="MAŁGORZATA WIELEK-MANDRELA – Image of Identity Through a Creative Act">
+  <br>
+  on the right: MAŁGORZATA WIELEK-MANDRELA – Image of Identity Through a Creative Act
+</p>
+
+<p class="custom-img-desc">
+  <img class="custom-img" src="/images/posts/IdentityInBluePointArt01-Wielak_Krzysztof_Marchlak.jpg" alt="KRZYSZTOF MARCHLAK – A non-heteronormative identity image">
+  <br>
+  on the left: MAŁGORZATA WIELEK-MANDRELA, in the background: KRZYSZTOF MARCHLAK – A non-heteronormative identity image 
+</p>
+
+<p class="custom-img-desc">
+  <img class="custom-img" src="/images/posts/IdentityInBluePointArt02-Łukasz_Murzyn&Krzysztof_Gil.jpg" alt="ŁUKASZ MURZYN – Image of a Local-Personal Identity – Heritage & KRZYSZTOF GIL – Dual Identity Image">
+  <br>
+on the left: ŁUKASZ MURZYN – Image of a Local-Personal Identity – Heritage, on the right: KRZYSZTOF GIL – Dual Identity Image
+</p>
+
+<p class="custom-img-desc">
+  <img class="custom-img" src="/images/posts/IdentityInBluePointArt03-Krzysztof_Marchlak&Łukasz_Murzyn.jpg" alt="KRZYSZTOF MARCHLAK – A non-heteronormative identity image, ŁUKASZ MURZYN – Image of a Local-Personal Identity – Heritage">
+  <br>
+on the left: KRZYSZTOF MARCHLAK – A non-heteronormative identity image, on the right: ŁUKASZ MURZYN – Image of a Local-Personal Identity – Heritage
+</p>
+
+

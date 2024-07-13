@@ -1,7 +1,7 @@
 ---
 title: "UPDATE of the dystopia of an imitation - March 2023 "
 description: "meta description"
-date: 2022-04-05T16:56:47+06:00
+date: 2023-03-15T16:56:47+06:00
 image: "/images/posts/20240711_000253_dystopiaofimitation_VermeerPitcher1200.jpg"
 draft: false
 authors: ["John Doe"]

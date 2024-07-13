@@ -44,10 +44,14 @@
       ]
     },
     {
-      "name": "Educational Exhibitions",
+      "name": "Educational Projects",
       "url": "",
       "hasChildren": true,
       "children": [
+        {
+          "name": "'Unvelling the Heritage of Krystyna Bednarczyk'",
+          "url": "/AR-heritage-app"
+        },
         {
           "name": "Dialogue on Fate and Soul. Stanisław Vincenz (1888–1971)",
           "url": "/fate-and-soul"

@@ -89,12 +89,21 @@
 
 }
 
-a {
+.content a {
   @apply text-3xl font-semibold;
 }
 
+
 a:hover {
   @apply text-hoverColor;
+}
+
+.custom-img-desc {
+  @apply text-center text-xl;
+}
+
+.custom-img {
+  @apply mb-0;
 }
 
 // tab

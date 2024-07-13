@@ -1,22 +1,37 @@
 ---
-title: "lockdowns-ciechanowskalockdowns-ciechanowskalockdowns-ciechanowskalockdowns-ciechanowska"
+title: "Lockdowns by Joanna Ciechanowska"
 description: "meta description"
-date: 2022-04-01T05:00:00Z
-image: "/images/posts/01.jpg"
+date: 2020-08-15T05:00:00Z
+image: "/images/posts/lockdowns-joanna_ciechanowska.jpg"
 categories: ["art"]
 authors: ["Mark Dinn"]
 tags: ["diy", "toy"]
 draft: false
 ---
 
-lockdowns-ciechanowskalockdowns-ciechanowskalockdowns-ciechanowskalockdowns-ciechanowskalockdowns-ciechanowskaNemo vel ad consectetur namut rutrum ex, venenatis sollicitudin urna. Aliquam erat volutpat. Integer eu ipsum sem. Ut bibendum lacus vestibulum maximus suscipit. Quisque vitae nibh iaculis neque blandit euismod.
+Joanna Ciechanowska’s works presented at the Lockdowns exhibition offer a specific understanding of isolation. They are anchored in multi-dimensional references to social and historical time, but above all – to personal time. Despite revealing fears related to participating in an unknown situation, they steer clear of catastrophism. They become the artist’s inner painting and poetic journey. They are a flash of rediscovery of those few simple images in the presence of which the human heart is closedand opened for the first time.
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo vel ad consectetur ut aperiam. Itaque eligendi natus aperiam? Excepturi repellendus consequatur quibusdam optio expedita praesentium est adipisci dolorem ut eius!
+[![visit an exhibition 'Lockdowns' by Joanna Ciechanowska](../../../public/images/posts/lockdowns-joanna_ciechanowska.jpg)](https://bluepointart.uk/wp-content/blue_point_3D_gallery/Lockdowns/index.html)
 
-## Creative Design
+Lets meet Joanna Ciechanowska
 
-Nam ut rutrum ex, venenatis sollicitudin urna. Aliquam erat volutpat. Integer eu ipsum sem. Ut bibendum lacus vestibulum maximus suscipit. Quisque vitae nibh iaculis neque blandit euismod.
+The bilingual publication, containing a longer theoretical and curatorial text and an album with the artist’s works: Justyna Gorzkowicz, Towards rediscovery: LOCKDOWNS – Joanna Ciechanowska  / W stronę ponownego odkrycia: LOCKDOWNS – Joanna Ciechanowska 
+Full version of the book will come soon at PUNO Press.
 
-> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo vel ad consectetur ut aperiam. Itaque eligendi natus aperiam? Excepturi repellendus consequatur quibusdam optio expedita praesentium est adipisci dolorem ut eius!
+[EXCERPT FROM CONTENTS / WYBÓR ZAWARTOŚCI – Free PDF](https://gateway.bluepointart.uk/ipfs/bafybeie4p55kauy6ejabn6dko3myb355isvzi6cnse37auzoupsdzh4q6m)
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo vel ad consectetur ut aperiam. Itaque eligendi natus aperiam? Excepturi repellendus consequatur quibusdam optio expedita praesentium est adipisci dolorem ut eius!
+<div class="flex items-center justify-center">
+<iframe width="640" height="360" src="https://www.youtube.com/embed/hSF4PP65feU" title="Joanna Ciechanowska - LOCKDOWNS" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+
+</br>
+
+<div class="flex items-center justify-center">
+<iframe width="640" height="360" src="https://www.youtube.com/embed/Zb0qnAwfcwQ" title="Blue Point Art Gallery, PUNO Londyn: Joanna Ciechanowska – Lockdowns" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+
+Project supported by the Polish Cultural Institute in London (PCI)
+
+<div class="flex items-center justify-center">
+  <img src="/images/posts/logo_PolishCulturalInstitute.jpeg" alt="Project supported by the Polish Cultural Institute in London (PCI)" class="w-16 md:w-24 lg:w-64 h-auto mx-auto">
+</div>

@@ -1,7 +1,7 @@
 ---
 title: "We're building a new gallery"
 description: "meta description"
-date: 2022-04-05T16:56:47+06:00
+date: 2023-10-10T16:56:47+06:00
 image: "/images/posts/building-new-gallery1200.jpg"
 draft: false
 authors: ["John Doe"]

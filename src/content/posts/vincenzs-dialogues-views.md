@@ -1,7 +1,7 @@
 ---
 title: "The exhibition 'Vincenz's Dialogues - Views'"
 description: "meta description"
-date: 2022-04-07T05:00:00Z
+date: 2023-06-29T05:00:00Z
 image: "https://gateway.bluepointart.uk/ipfs/bafkreichmkxpte5zsc4xhzjxlhgndf5umyklfepvezxyitmjhlghxibiqi"
 categories: ["photography"]
 authors: ["Mark Dinn"]

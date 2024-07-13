@@ -2,7 +2,7 @@
 title: "CYPRIAN NORWID: Yesterday and Today on the Bicentenary of the Birth of the Poet-emigrant"
 description: "meta description"
 date: 2021-01-04T16:56:47+06:00
-image: "/images/posts/04.jpg"
+image: "/images/posts/norwid-konferencja-PUNO.jpg"
 draft: false
 authors: ["Justyna Gorzkowicz"]
 tags: ["PUNO", "XIth Annual April Conference", "Part of The Norwid Project", "Cyprian Norwid"]

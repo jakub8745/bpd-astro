@@ -1,7 +1,7 @@
 ---
 title: "webGl/webXR art installation 'Milkmaid's Pitcher' "
 description: "meta description"
-date: 2023-04-06T16:56:47+06:00
+date: 2023-06-01T16:56:47+06:00
 image: "/images/posts/MilkmaidsPitcher1200.jpg"
 draft: false
 authors: ["Mark Dinn"]
