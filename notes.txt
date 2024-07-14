@@ -34,3 +34,13 @@
       "name": "Home",
       "url": "/"
     },
+
+
+
+### Image with description
+
+<div class="custom-img-desc">
+  <img class="custom-img" src="/images/posts/IdentityInBluePointArt-Natalia_Kopytko.jpg" alt="NATALIA KOPYTKO – An image of an identity built from memories – Unreal Places">
+  <br />
+  NATALIA KOPYTKO – An image of an identity built from memories – <em>Unreal Places</em>
+</div>
