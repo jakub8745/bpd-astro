@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Blue Point Art Gallery</title>
+    <meta charset="utf-8">
+    <meta content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0" name="viewport">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="/public/exhibition_lockdowns/styles/main.css">
+  </head>
+  <body>
+    <div id="info">
+      <img class="kludkaKorpus" src="/public/exhibition_lockdowns/textures/elementy/kludkaKorpus.jpg" style="width: 2.3em; height: auto;" alt="Info" ontouchstart="kludka()" onclick="kludka()">
+      <img class="kludkaDzyndzel" src="/public/exhibition_lockdowns/textures/elementy/kludkaDzyndzel.png" style="width: 1.75em; height: auto;" alt="Info" ontouchstart="kludka()" onclick="kludka()">
+    </div>
+    <div id="gest1" class="gest">
+      <img src="/public/exhibition_lockdowns/textures/elementy/SwipeLeftRight.png" style="width: 5.5em; height: 3.5em;">
+
+      <img src="/public/exhibition_lockdowns/textures/elementy/SwipeUpDown.png" style="width: 5em; height: 4em;">
+
+      <img src="/public/exhibition_lockdowns/textures/elementy/DoubleTouch.png" style="width: 6.5em; height: 3.5em;">
+    </div>
+    <div id="infoDOM">
+      <a href="/public/exhibition_lockdowns/index.html" class="close-button" ontouchstart="closeButton()" onclick="closeButton()"></a>
+      <section id="tytul">tytul</section>
+    </div>
+
+    <script>
+      /** Thanks for incredible THREEjs and Orbit Controls (which I've modified only a little bit ;))
+       * @author qiao / https://github.com/qiao
+       * @author mrdoob / http://mrdoob.com
+       * @author alteredq / http://alteredqualia.com/
+       * @author WestLangley / http://github.com/WestLangley
+       * @author erich666 / http://erichaines.com
+       * @author ScieCode / http://github.com/sciecode
+       */
+      /** Also for Tween.js which saved a lot of my time :)
+       * Tween.js - Licensed under the MIT license
+       * https://github.com/tweenjs/tween.js
+       * ----------------------------------------------
+       *
+       * See https://github.com/tweenjs/tween.js/graphs/contributors for the full list of contributors.
+       * Thank you all, you're awesome!
+       */
+
+      // it is september 2020. Thank to Lockdown I had more time to learn js and HTML,CSS from literary nothing. So, this is a project of the very beginer. Have a fun to analize it. Next step is to make it shorter, more reliable and robust.
+      // you can find me on https://clacu.puno.edu.pl/our-staff/ma-jaroslaw-solecki
+      // https://bluepointart.uk/wp-content/blue_point_3D_gallery/
+      // project is based on r116.
+
+      //-------<a  href="https://clacu.puno.edu.pl/art-gallery-at-puno"  rel="noopener noreferrer" target="_blank">Download J. Gorzkowicz book "LOCKDOWNS"<\/a><br/>
+
+      const kludka = () => {
+        const q = document.getElementsByClassName("kludkaDzyndzel");
+        if (document.getElementById("gest1").style.display == "none") {
+          document.getElementById(
+            "gest1"
+          ).innerHTML = `<h5><b>LOCKDOWNS<\/b> Joanna Ciechanowska<br/>Blue Point Art Gallery, PUNO London 2020<\/h5> `;
+          const downloadBookLink = document.getElementById("gest1").innerHTML;
+          openPadlock(q);
+        } else {
+          lockPadlock(q);
+        }
+      };
+
+      let openPadlock = (q) => {
+        document.getElementById("gest1").style.display = "block";
+        q[0].style.position = "relative";
+        q[0].style.transform = "rotate(-20deg)";
+        q[0].style.bottom = "2.3em";
+        q[0].style.left = "1.3em";
+      };
+
+      let lockPadlock = (q) => {
+        q[0].style.transform = "rotate(0deg)";
+        q[0].style.position = "relative";
+        q[0].style.bottom = "2.1em";
+        q[0].style.left = "1.57em";
+        document.getElementById("gest1").style.display = "none";
+      };
+      const closeButton = () => {
+        document.getElementById("infoDOM").style.display = "none";
+      };
+    </script>
+    <script src="/public/exhibition_lockdowns/js/lib/arrays.js"></script>
+    <script type="text/javascript" src="/public/exhibition_lockdowns/js/vendor/three/tween.js"></script>
+
+    <script type="module">
+      openPadlock = (q) => {
+        document.getElementById("gest1").style.display = "block";
+        q[0].style.position = "relative";
+        q[0].style.transform = "rotate(-20deg)";
+        q[0].style.bottom = "2.3em";
+        q[0].style.left = "1.3em";
+      };
+
+      lockPadlock = (q) => {
+        q[0].style.transform = "rotate(0deg)";
+        q[0].style.position = "relative";
+        q[0].style.bottom = "2.1em";
+        q[0].style.left = "1.57em";
+        document.getElementById("gest1").style.display = "none";
+      };
+
+      import * as THREE from "/public/exhibition_lockdowns/js/vendor/three/three.module.js";
+      import { MapControls } from "/public/exhibition_lockdowns/js/vendor/three/OrbitControls.js";
+
+      import { obrazyArray, textOnWall } from "/public/exhibition_lockdowns/js/lib/arrays.js";
+      var camera, scene, renderer, stats, controls, rayCast, mouse, container; //
+      var texture, x, intersects, imageName, raycaster, INTERSECTED;
+      var cubeGeometry1, material1, mesh1;
+      var closeGeometry, closeMaterial, text2, close;
+      var docBody, light, pos, i;
+      const newPositon = new THREE.Vector3();
+
+      let whatTouch = 0;
+
+      const pickPosition = new THREE.Vector2();
+
+      const distance = 0.29;
+      const front_vector = new THREE.Vector3();
+      const ignore1 = new THREE.Vector3();
+      const ignore2 = new THREE.Vector3();
+      const paintViewVector = new THREE.Vector3();
+      const camXmax = 4.9,
+        camXmin = camXmax - camXmax * 2,
+        camZmax = 2.9,
+        camZmin = camZmax - camZmax * 2;
+
+      const d = 0.75;
+
+      const isTweenCompleted = true;
+
+      init();
+
+      animate();
+
+      function init() {
+        scene = new THREE.Scene();
+
+        raycaster = new THREE.Raycaster();
+
+        renderer = new THREE.WebGLRenderer({ antialias: true });
+        renderer.physicallyCorrectLights = true;
+
+        //renderer.shadowMap.enabled = true;
+        renderer.toneMapping = THREE.LinearToneMapping;
+
+        renderer.setPixelRatio(window.devicePixelRatio);
+        renderer.setSize(window.innerWidth, window.innerHeight);
+        document.body.appendChild(renderer.domElement);
+
+        // load JSON scene and and some elements from it to main scene
+
+        var loadero = new THREE.ObjectLoader();
+        loadero.load("https://bluepointart.uk/wp-content/blue_point_3D_gallery/Lockdowns/models/scene.json", function (objec) {
+          scene.copy(objec);
+
+          // PAINTING
+
+          for (var i = 0; i < obrazyArray.length; i++) {
+            let tablica = obrazyArray[i];
+            scene.children.forEach((element) => {
+              if (element.name == tablica.name) {
+                var loader = new THREE.TextureLoader();
+                loader.load(
+                  "https://bluepointart.uk/wp-content/blue_point_3D_gallery/Lockdowns/textures/paintings/" + tablica.name + ".jpg",
+                  function (texture) {
+                    element.material.color = 0;
+                    element.material.map = texture;
+                    element.material.roughness = 0.4;
+
+                    element.material.map.minFilter =
+                      THREE.LinearMipmapLinearFilter;
+                    element.material.needsUpdate = true;
+                  }
+                );
+              }
+            });
+          }
+          scene.children.forEach((element) => {
+            if (element.name == "SpotLight") {
+              element.intensity = 2.4;
+              element.angle = 1.2;
+              element.distance = 0;
+              scene.add(element.target);
+
+              element.target.position.set(
+                element.position.x,
+                2.5,
+                element.position.z - element.position.z * 2
+              );
+            } else if (element.name == "SpotLightx") {
+              element.intensity = 1.7;
+              element.distance = 0;
+              element.angle = 0.6;
+              scene.add(element.target);
+
+              element.target.position.set(
+                element.position.x - element.position.x * 2,
+                2.2,
+                element.position.z
+              );
+            } else if (element.name == "AmbientLight") {
+              element.intensity = 0.7;
+            }
+            // FLOOR
+            else if (element.name == "Floor") {
+              var loader = new THREE.TextureLoader();
+              loader.load("/public/exhibition_lockdowns/textures/concreteBump.jpg", function (texture) {
+                element.material.bumpMap = texture;
+                element.material.bumpScale = 0.015;
+                element.material.bumpMap.wrapS = THREE.RepeatWrapping;
+                element.material.bumpMap.wrapT = THREE.RepeatWrapping;
+                element.material.bumpMap.repeat.set(5, 3);
+                element.material.needsUpdate = true;
+              });
+              loader.load("/public/exhibition_lockdowns/textures/concrete.jpg", function (texture) {
+                element.material.map = texture;
+                element.material.map.wrapS = THREE.RepeatWrapping;
+                element.material.map.wrapT = THREE.RepeatWrapping;
+                element.material.map.repeat.set(5, 3);
+                element.material.emissive = 0x000000;
+                element.material.map.minFilter = THREE.LinearFilter;
+                element.material.needsUpdate = true;
+              });
+            }
+
+            // WALLS
+            else if (element.name == "Wall") {
+              element.material.color.setHex(0xfbfbfb);
+              element.material.emissive.setHex(0x000000);
+              var loader = new THREE.TextureLoader();
+              loader.load("/public/exhibition_lockdowns/textures/teksturaSciany.jpg", function (texture) {
+                element.material.map = texture;
+                element.material.map.wrapS = THREE.RepeatWrapping;
+                element.material.map.wrapT = THREE.RepeatWrapping;
+                element.material.map.repeat.set(80, 40);
+                element.material.needsUpdate = true;
+              });
+            }
+          });
+        });
+
+        camera = new THREE.PerspectiveCamera(
+          50,
+          window.innerWidth / window.innerHeight,
+          0.5,
+          20
+        );
+        scene.add(camera);
+
+        {
+          const color = 0xcccccc;
+          const density = 0.07;
+          scene.fog = new THREE.FogExp2(color, density);
+        }
+
+        // controls
+
+        controls = new MapControls(camera, renderer.domElement);
+
+        controls.mouseButtons = {
+          LEFT: THREE.MOUSE.ROTATE,
+          MIDDLE: THREE.MOUSE.DOLLY,
+          RIGHT: THREE.MOUSE.PAN
+        };
+
+        controls.screenSpacePanning = false;
+        controls.minDistance = 0;
+        controls.maxDistance = 2;
+        controls.panSpeed = 10;
+        controls.rotateSpeed = controls.panSpeed / 20;
+        controls.enableZoom = false;
+        controls.zoomSpeed = 3;
+        controls.maxPolarAngle = Math.PI / 2; // Limit angle of visibility
+        controls.minPolarAngle = Math.PI / 2;
+        controls.target.copy(new THREE.Vector3(-3.7, 1.346, 1));
+        controls.enableDamping = true;
+        controls.dampingFactor = 0.02;
+        controls.update();
+        camera.matrix.extractBasis(ignore1, ignore2, front_vector);
+        //put the camera at a negative distance from the object
+        camera.position.copy(controls.target);
+        camera.position.addScaledVector(front_vector, distance);
+
+        {
+          //Bouncing Box
+          const geometry = new THREE.PlaneBufferGeometry(1.5, 1.5, 1);
+          const material = new THREE.MeshBasicMaterial({ color: 0x00ff00 });
+          const plane = new THREE.Mesh(geometry, material);
+          plane.rotation.x = Math.PI / 2;
+          plane.position.copy(controls.target);
+          plane.position.y = 0.5;
+
+          plane.material.visible = false;
+          plane.name = "BouncingSphere";
+          plane.geometry.computeBoundingBox();
+          scene.add(plane);
+        }
+
+        {
+          //text on walls
+          const loader = new THREE.FontLoader();
+          loader.load("txt/Lato Black_Regular.json", function (font) {
+            for (var i = 0; i < 4; i++) {
+              const geometry = new THREE.TextBufferGeometry(
+                textOnWall[i].text,
+                {
+                  font: font,
+                  size: 0.12,
+                  height: 0.05,
+                  curveSegments: 12,
+                  bevelEnabled: false,
+                  bevelThickness: 1,
+                  bevelSize: 0.5,
+                  bevelOffset: 0,
+                  bevelSegments: 5
+                }
+              );
+
+              const material = new THREE.MeshLambertMaterial({
+                color: 0x424242
+              });
+              const object = new THREE.Mesh(geometry, material);
+              object.position.set(
+                textOnWall[i].x,
+                textOnWall[i].y,
+                textOnWall[i].z
+              );
+              object.rotation.set(
+                textOnWall[i].rx,
+                textOnWall[i].ry,
+                textOnWall[i].rz
+              );
+              scene.add(object);
+            }
+          });
+        }
+        {
+          const q = document.getElementsByClassName("kludkaDzyndzel");
+          openPadlock(q);
+        }
+
+        window.addEventListener("resize", onWindowResize, false);
+        window.addEventListener("click", setPickPosition);
+        window.addEventListener("mouseout", clearPickPosition);
+        window.addEventListener("mouseleave", clearPickPosition);
+
+        window.addEventListener(
+          "touchstart",
+          (event) => {
+            event.preventDefault();
+            setPickPosition(event.touches[0]);
+          },
+          { passive: false }
+        );
+
+        window.addEventListener("touchmove", (event) => {
+          setPickPosition(event.touches[0]);
+        });
+
+        window.addEventListener("touchend", clearPickPosition);
+        controls.addEventListener("end", cameraIsMoving);
+      }
+
+      function cameraIsMoving() {
+        if (document.getElementById("gest1").style.display === "block") {
+          window.TimeoutID = setTimeout(() => {
+            lockPadlock(document.getElementsByClassName("kludkaDzyndzel"));
+          }, 5000);
+        }
+
+        if (
+          document.getElementById("infoDOM").style.display === "block" &&
+          isTweenCompleted === true
+        ) {
+          window.TimeoutID = setTimeout(() => {
+            document.getElementById("infoDOM").style.display = `none`;
+          }, 1000);
+        }
+      }
+
+      function onWindowResize() {
+        clearPickPosition();
+        camera.aspect = window.innerWidth / window.innerHeight;
+
+        camera.updateProjectionMatrix();
+
+        renderer.setSize(window.innerWidth, window.innerHeight);
+      }
+
+      function animate() {
+        requestAnimationFrame(animate);
+
+        controls.update();
+        render();
+      }
+      const keepDistance = () => {
+        camera.matrix.extractBasis(ignore1, ignore2, front_vector);
+        camera.position.copy(controls.target);
+        camera.position.addScaledVector(front_vector, distance);
+      };
+
+      function render() {
+        const obj = scene.children.find((obj) => obj.name == "BouncingSphere");
+        newPositon.copy(controls.target);
+        newPositon.y = 0.5;
+        obj.position.copy(newPositon);
+
+        ///*
+
+        let camPosx = obj.position.x,
+          camPosz = obj.position.z;
+
+        if (camPosx + obj.geometry.boundingBox.max.x >= camXmax) {
+          obj.position.x = camXmax - d;
+          controls.target.x = obj.position.x;
+          keepDistance();
+        } else if (camPosx + obj.geometry.boundingBox.min.x <= camXmin) {
+          obj.position.x = camXmin + d;
+          controls.target.x = obj.position.x;
+          keepDistance();
+        }
+
+        if (camPosz + obj.geometry.boundingBox.max.y >= camZmax) {
+          obj.position.z = camZmax - d;
+          controls.target.z = obj.position.z;
+          keepDistance();
+        } else if (camPosz + obj.geometry.boundingBox.min.y <= camZmin) {
+          obj.position.z = camZmin + d;
+          controls.target.z = obj.position.z;
+          keepDistance();
+        }
+
+        if (whatTouch == 1) {
+          raycaster.setFromCamera(pickPosition, camera);
+
+          var intersects = raycaster.intersectObjects(scene.children);
+
+          if (intersects.length > 0) {
+            if (INTERSECTED != intersects[0].object) {
+              INTERSECTED = intersects[0].object;
+              if (
+                INTERSECTED.name != "Floor" &&
+                INTERSECTED.name != "Wall" &&
+                INTERSECTED.name != "SpotLight" &&
+                INTERSECTED.name != "BouncingSphere" &&
+                whatTouch == 1
+              ) {
+                const direction = new THREE.Vector3();
+                camera.getWorldDirection(direction);
+              }
+            }
+          } else {
+            INTERSECTED = null;
+          }
+          whatTouch = 0;
+          clearPickPosition();
+        }
+
+        // find intersections
+        if (whatTouch == 2) {
+          raycaster.setFromCamera(pickPosition, camera);
+
+          var intersects = raycaster.intersectObjects(scene.children);
+
+          if (intersects.length > 0) {
+            if (INTERSECTED != intersects[0].object) {
+              INTERSECTED = intersects[0].object;
+              if (
+                INTERSECTED.name != "Floor" &&
+                INTERSECTED.name != "Wall" &&
+                INTERSECTED.name != "SpotLight" &&
+                INTERSECTED.name != "BouncingSphere" &&
+                whatTouch == 2
+              ) {
+                makeInfoDOM(INTERSECTED);
+              }
+            }
+          } else {
+            INTERSECTED = null;
+          }
+          whatTouch = 0;
+          INTERSECTED = null;
+          window.clearTimeout(window.timeoutID);
+          clearPickPosition();
+        }
+        controls.update();
+        TWEEN.update();
+
+        renderer.render(scene, camera);
+      }
+
+      const makeInfoDOM = (infoName) => {
+        document.getElementById("infoDOM").style.display = `none`;
+        const found = obrazyArray.find(({ name }) => name === infoName.name);
+        const targetStart = new THREE.Vector3();
+        const targetEnd = new THREE.Vector3();
+        const cameraStart = new THREE.Vector3();
+        const cameraEnd = new THREE.Vector3();
+        TWEEN.removeAll();
+
+        targetStart.copy(controls.target);
+        targetEnd.copy(infoName.position);
+        cameraStart.copy(camera.position);
+        cameraEnd.copy(infoName.position);
+        if (found.x != 0 && found.z == 0) {
+          targetEnd.x = (4.85 - d) * found.x;
+          cameraEnd.x = (4.85 - (d + distance)) * found.x;
+        } else if (found.z != 0 && found.x == 0) {
+          cameraEnd.z = (2.85 - (d + distance)) * found.z;
+          targetEnd.z = (2.85 - d) * found.z;
+        }
+
+        var tweenTarget = new TWEEN.Tween(targetStart).to(targetEnd, 2000);
+
+        tweenTarget.onUpdate(function () {
+          controls.target.x = targetStart.x;
+          controls.target.z = targetStart.z;
+          const isTweenCompleted = false;
+        });
+        tweenTarget.onComplete(function () {
+          document.getElementById(`tytul`).innerHTML = found["tytul"];
+          document.getElementById("infoDOM").style.display = `block`;
+        });
+
+        var tweenCamera = new TWEEN.Tween(cameraStart).to(cameraEnd, 2000);
+        tweenCamera.onUpdate(function () {
+          camera.position.x = cameraStart.x;
+          camera.position.z = cameraStart.z;
+        });
+
+        tweenTarget.start();
+        tweenCamera.start();
+      };
+
+      function getCanvasRelativePosition(event) {
+        const rect = renderer.domElement.getBoundingClientRect();
+        return {
+          x: event.clientX - rect.left,
+          y: event.clientY - rect.top
+        };
+      }
+
+      function setPickPosition(event) {
+        let pos = getCanvasRelativePosition(event);
+        pickPosition.x = (pos.x / renderer.domElement.clientWidth) * 2 - 1;
+        pickPosition.y = (pos.y / renderer.domElement.clientHeight) * -2 + 1; // note we flip Y
+        touchStart();
+      }
+
+      function clearPickPosition() {
+        pickPosition.x = -100000;
+        pickPosition.y = -100000;
+      }
+
+      var clickTimer = null;
+
+      // cheking double tap
+      function touchStart() {
+        if (clickTimer == null) {
+          clickTimer = setTimeout(function () {
+            clickTimer = null;
+            whatTouch = 1;
+          }, 400);
+        } else {
+          clearTimeout(clickTimer);
+          clickTimer = null;
+          whatTouch = 2;
+        }
+      }
+      /*
+      function closeInfo() {
+        removeOldObjects(docBody);
+      }*/
+    </script>
+  </body>
+</html>

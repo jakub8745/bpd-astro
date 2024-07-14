@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Static Template</title>
+    <style type="text/css">
+       body {
+        max-height: 50%;
+
+background-color: rgb(223, 223, 223);
+border: none;
+background-size: contain;
+
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.scrolling-box {
+  position: absolute;
+  top: 10px;
+  left: 1%;
+  right: 1%;
+  bottom: 0;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+section {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  height: 100%;
+
+}
+
+      </style>
+  <body>
+    <div class="scrolling-box">
+      <section id="tytul">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</section>
+      <section id="2">This is the second section</section>
+      <section id="3">This is the third section</section>
+    </div>
+    
+  </body>
+</html>

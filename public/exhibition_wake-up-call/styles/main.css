@@ -1,0 +1,228 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+
+  height: 100vh;
+  width: auto;
+
+  overflow: hidden;
+  font-family: "IBM Plex Sans", sans-serif;
+}
+#c {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.infoDOM {
+  position: absolute;
+  overflow: hidden;
+  align-items: center;
+  flex-direction: column;
+  display: none;
+
+  -webkit-overflow-scrolling: touch;
+
+  opacity: 0;
+  animation: mymove 0.5s;
+  animation-delay: 0s;
+  animation-fill-mode: forwards;
+
+  background-color: rgb(255, 255, 255);
+  background-size: cover;
+  border: solid 1px rgb(5, 5, 5);
+  border-radius: 7px;
+  top: 2em;
+  right: 0.5em;
+  padding: 0.1em;
+
+  width: 90vw;
+  max-width: 50em;
+  max-height: 90vh;
+  /* justify-content: center;
+  /*text-align: justify;
+  /*text-justify: inter-character;*/
+}
+
+section {
+  overflow: auto;
+  position: relative;
+  font-weight: 400;
+  top: 0em;
+  color: black;
+  padding: 0px;
+}
+/*zmaieni¬em .infoIFRAME na nameOnBar*/
+#nameOnBar {
+  /*overflow: auto;
+  border: 0;
+  height: auto;
+  max-height: 60vh;
+  
+  position: relative;
+  
+  width: auto;*/
+  text-align: left;
+  left: 0;
+  top: 0;
+}
+p {
+  /*position: relative;
+  overflow: auto;*/
+  margin-top: -0.2em;
+  margin-left: 0.4em;
+  max-inline-size: 90%;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 300;
+  font-size: 120%;
+  color: black;
+}
+
+b {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 700;
+  top: 30em;
+  left: 2em;
+  color: black;
+}
+.infoFRAME {
+  /*overflow: auto;
+  position: relative;
+  border: 0;*/
+  height: auto;
+  max-height: 60vh;
+  left: 0;
+
+  top: 0;
+  width: auto;
+}
+.open-info-button {
+  opacity: 0.01;
+  animation: mymove 4.5s;
+  animation-delay: 0s;
+  animation-fill-mode: forwards;
+  display: none;
+  font-family: "IBM Plex Sans", sans-serif;
+  /* font-weight: regular;*/
+  color: black;
+  background: rgb(255, 255, 255);
+  padding: 0.5em;
+  border: solid 0.1em rgb(0, 0, 0);
+  border-radius: 7px;
+  position: absolute;
+  bottom: 10.4em; /* 0.4em*/
+  right: 0em;
+  /*transform: rotate(90deg);*/
+}
+
+@keyframes mymove {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 0.9;
+  }
+}
+
+.exhibition-name {
+  position: absolute;
+  bottom: 4em;
+  left: -2em;
+  width: 20em;
+}
+.exhibition-name .LOGO-wakeUpCall {
+  position: absolute;
+  width: 10em;
+}
+
+.exhibition-name section {
+  font-size: 0.7em;
+  position: absolute;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 500;
+  color: rgb(0, 0, 0);
+  top: 2.3em;
+  left: 13em;
+}
+
+.info {
+  height: 2em;
+  width: 2em;
+  background-color: #bbb;
+  border-radius: 50%;
+
+  display: block;
+  position: absolute;
+  right: 1vw;
+  bottom: 0.6em;
+}
+.info h1 {
+  color: rgb(0, 0, 0);
+  font-family: inherit;
+  font-size: 2em;
+  font-weight: bold;
+
+  text-decoration: none;
+
+  position: relative;
+  top: -0.8em;
+  right: -0.35em;
+}
+
+#gest1 {
+  animation-name: do-gest;
+  animation-duration: 2s;
+  display: none;
+  position: absolute;
+  bottom: 0.5em;
+  left: 2em;
+}
+
+@keyframes do-gest {
+  from {
+    opacity: 0;
+    /*left: 4.5em;*/
+  }
+  to {
+    opacity: 1;
+    /*left: 7em;*/
+  }
+}
+
+.close-button {
+  height: 1.1em;
+  width: 1.5em;
+  position: absolute;
+
+  right: -0.1em;
+  top: 0.7em;
+  box-sizing: border-box;
+  line-height: 2em;
+  display: inline-block;
+}
+
+.close-button:before,
+.close-button:after {
+  transform: rotate(-45deg);
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -5px;
+  margin-left: -15px;
+  display: block;
+  height: 3px;
+  width: 1em;
+  background-color: #7a7a7a;
+  transition: all 0.1s ease-out;
+}
+
+.close-button:after {
+  transform: rotate(45deg);
+}
+
+.close-button:hover:before,
+.close-button:hover:after {
+  transform: rotate(0deg);
+}

@@ -1,0 +1,176 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+
+  height: 100vh;
+  width: auto;
+  overflow: hidden;
+}
+
+#infoDOM {
+  opacity: 0;
+
+  animation: mymove 0.3s;
+  animation-delay: 0s;
+  animation-fill-mode: forwards;
+
+  overflow: hidden;
+  height: auto;
+  display: none;
+
+  background-size: cover;
+  background-color: rgba(29, 62, 66, 0.5);
+  border-radius: 5px;
+
+  font-family: "Lato", sans-serif;
+  font-weight: normal;
+
+  padding: 0.4em;
+  width: auto;
+
+  position: absolute;
+  top: 1em;
+  right: 1em;
+}
+.close-button {
+  height: 1.1em;
+  width: 1.5em;
+  position: absolute;
+
+  left: 0.3em;
+  box-sizing: border-box;
+  line-height: 2em;
+  display: inline-block;
+}
+
+.close-button:before,
+.close-button:after {
+  transform: rotate(-45deg);
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -5px;
+  margin-left: -15px;
+  display: block;
+  height: 3px;
+  width: 1em;
+  background-color: #f7fcff;
+  transition: all 0.1s ease-out;
+}
+
+.close-button:after {
+  transform: rotate(45deg);
+}
+
+.close-button:hover:before,
+.close-button:hover:after {
+  transform: rotate(0deg);
+}
+p {
+  top: 0.5em;
+  display: block;
+  position: relative;
+  text-align: left;
+  margin: 0.4em;
+
+  color: #f7fcff;
+}
+
+h5 {
+  font-family: "Lato", sans-serif;
+  font-size: 1.2em;
+  font-weight: normal;
+  top: 0em;
+  display: block;
+  position: relative;
+  text-align: left;
+  margin: 0.4em;
+
+  color: #f7fcff;
+}
+
+a {
+  font-family: "Lato", sans-serif;
+  font-size: 1em;
+  color: #0c282b;
+}
+
+@keyframes mymove {
+  from {
+    opacity: 0;
+    background-color: rgba(29, 62, 66, 0);
+  }
+  to {
+    opacity: 0.99;
+    background-color: rgba(29, 62, 66, 0.5);
+  }
+}
+
+#info {
+  color: #383b42;
+  font-family: "Lato", sans-serif;
+  font-size: 15px;
+  font-weight: normal;
+  padding: 6px;
+  text-decoration: none;
+  position: absolute;
+  left: -1.3rem;
+  bottom: -0.5em;
+}
+
+#gest1 {
+  opacity: 1;
+  color: #0f2022;
+  font-family: "Lato", sans-serif;
+  font-size: 1em;
+  font-weight: normal;
+
+  background-color: rgba(29, 62, 66, 0.5);
+  border-radius: 5px;
+  background-size: cover;
+  animation-name: do-gest;
+  animation-duration: 1.5s;
+  display: none;
+  position: absolute;
+  bottom: 0.5em;
+  left: 2.7em;
+}
+
+@keyframes do-gest {
+  from {
+    opacity: 0;
+    background-color: rgba(29, 62, 66, 0);
+  }
+  to {
+    opacity: 1;
+    background-color: rgba(29, 62, 66, 0.5);
+  }
+}
+
+.kludkaDzyndzel {
+  width: 2em;
+  height: auto;
+  position: relative;
+  bottom: 2.1em;
+  left: 1.57em;
+  opacity: 0.7;
+}
+
+.kludkaDzyndzel:hover {
+  transform: rotate(-20deg); /*scale(0.59);*/
+  opacity: 0.7;
+}
+
+.kludkaKorpus {
+  position: inherit;
+  opacity: 0.7;
+  bottom: 1.1em;
+  left: 1.7em;
+}
+
+.kludkaKorpus:hover {
+  position: inherit;
+  opacity: 0.7;
+}
