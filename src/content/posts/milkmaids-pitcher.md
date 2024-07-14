@@ -4,9 +4,9 @@ description: "meta description"
 date: 2023-06-01T16:56:47+06:00
 image: "/images/posts/MilkmaidsPitcher1200.jpg"
 draft: false
-authors: ["Mark Dinn"]
-tags: ["Alarm", "Clock"]
-categories: ["LifeStyle"]
+authors: ["Jaroslaw Solecki"]
+tags: ["webGl/webXR", "art installation", "Milkmaid's Pitcher"]
+categories: ["AR/XR", "art installation"]
 ---
 The art installation 'Milkmaids Pitcher' was created during nights&weekends - a six-week programme organised by Buildspace in which we brought our various ideas to life. It was not easy! I was so busy building my installation
 that I didn't have enough time for social media. As a result, I finished in 200th place. I was competing against 3500 other ideas. That's not bad, is it? I had an idea for an art object. Purely artistic, conceptual.
@@ -20,4 +20,3 @@ Not that I'm not horrified by humanity's social, climate or health problems, but
 A bit like in those fractions of a second when we are no longer asleep and still feel the reality of sleep, as if two states of concentration exist simultaneously.
 
 ![webGl/webXR art installation 'Milkmaid's Pitcher](/images/posts/20240710_234806_05_MilkmaidsPitcher1200.jpg?version%3D1720651788739)
-

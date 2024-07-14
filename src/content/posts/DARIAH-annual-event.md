@@ -4,12 +4,12 @@ description: "meta description"
 date: 2024-06-16T16:56:47+06:00
 image: "/images/posts/20240712_205629_dariah2024-virtualGallery1200.jpg"
 draft: false
-authors: ["J. Gorzkowicz", "J. Solecki"]
+authors: ["Justyna Gorzkowicz", "Jaroslaw Solecki"]
 tags: ["DARIAH", "Workflow", "Lisbon", "2024", "Reproducible Artistic Research"]
-categories: ["Food"]
+categories: ["presentation", "conference"]
 ---
 Showcasing the Blue Point Gallery Workflow at DARIAH 2024
-We are thrilled to announce that our Blue Point Gallery Project will be featured at the prestigious DARIAH Annual Event 2024 in Lisbon, Portugal. This year's conference theme, "Workflows: Digital Methods for Reproducible Research Practices in the Arts and Humanities," aligns perfectly with our project's mission to leverage digital technologies in creating immersive and engaging art experiences. Join us for "Virtual Gallery: A Nexus of Artistic Practice and Research" at DARIAH 2024:
+We are thrilled to announce that our Blue Point Gallery Project will be featured at the prestigious DARIAH Annual Event 2024 in Lisbon, Portugal. This year's conference theme, "Workflows: Digital Methods for Reproducible Research Practices in the Arts and Humanities, " aligns perfectly with our project's mission to leverage digital technologies in creating immersive and engaging art experiences. Join us for "Virtual Gallery: A Nexus of Artistic Practice and Research" at DARIAH 2024:
 
 Merging Art and Technology at the Virtual Blue Point Gallery The Blue Point Art Gallery London is breaking new ground by integrating conceptual art with cutting-edge digital methodologies and technologies. This innovative virtual gallery, developed during the COVID-19 pandemic, serves as a dynamic platform for creative expression, research, and public engagement. Powered by WebGL, JavaScript, HTML, and CSS, the gallery offers an immersive 3D experience accessible directly through web browsers. No additional software is required, democratizing access to the artworks on display.
 

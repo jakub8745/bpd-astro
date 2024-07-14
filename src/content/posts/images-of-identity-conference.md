@@ -3,9 +3,9 @@ title: "International Conference: Our Everyday Identity"
 description: "meta description"
 date: 2020-12-02T06:00:00+00:00
 image: "/images/posts/Identity_konfer.jpg"
-categories: ["art"]
-authors: ["Mark Dinn"]
-tags: ["diy", "toy"]
+categories: ["conference"]
+authors: ["Justyna Gorzkowicz", "Jaroslaw Solecki"]
+tags: ["conference", "Tożsamość", "Identity", "PUNO", "Wydział Sztuki Uniwersytetu Pedagogicznego w Krakowie"]
 draft: false
 ---
 

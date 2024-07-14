@@ -3,9 +3,9 @@ title: "Images of Identity"
 description: "meta description"
 date: 2020-12-18T06:00:00+00:00
 image: "/images/posts/IdentityInBluePointArt06.jpg"
-categories: ["art"]
-authors: ["Mark Dinn"]
-tags: ["diy", "toy"]
+categories: ["Exhibition"]
+authors: ["Justyna Gorzkowicz", "Jaroslaw Solecki"]
+tags: ["visual arts", "interdisciplinary", "humanities and social sciences", "Images of Identity", "PUNO", "Wydział Sztuki Uniwersytetu Pedagogicznego w Krakowie", "Exhibition", "3D"]
 draft: false
 ---
 
@@ -27,38 +27,44 @@ The virtual exhibition [‘Images of Identity’ (18.12.2020-18.02.2021 at 3D Bl
 <figure class="custom-img-desc">
   <img class="custom-img" src="/images/posts/IdentityInBluePointArt-Natalia_Kopytko.jpg" alt="NATALIA KOPYTKO – An image of an identity built from memories – Unreal Places" />
   <figcaption>
+
     NATALIA KOPYTKO – An image of an identity built from memories – <em>Unreal Places</em>
+
   </figcaption>
 </figure>
 
 <figure class="custom-img-desc">
   <img class="custom-img" src="/images/posts/IdentityInBluePointArt04-Małgorzata_Wielak.jpg" alt="MAŁGORZATA WIELEK-MANDRELA – Image of Identity Through a Creative Act" />
   <figcaption>
+
     on the right: MAŁGORZATA WIELEK-MANDRELA – Image of Identity Through a Creative Act
+
   </figcaption>
 </figure>
 
 <figure class="custom-img-desc">
   <img class="custom-img" src="/images/posts/IdentityInBluePointArt01-Wielak_Krzysztof_Marchlak.jpg" alt="KRZYSZTOF MARCHLAK – A non-heteronormative identity image" />
   <figcaption>
+
     on the left: MAŁGORZATA WIELEK-MANDRELA, in the background: KRZYSZTOF MARCHLAK – A non-heteronormative identity image
+
   </figcaption>
 </figure>
 
 <figure class="custom-img-desc">
   <img class="custom-img" src="/images/posts/IdentityInBluePointArt02-Łukasz_Murzyn&Krzysztof_Gil.jpg" alt="ŁUKASZ MURZYN – Image of a Local-Personal Identity – Heritage & KRZYSZTOF GIL – Dual Identity Image" />
   <figcaption>
+
     on the left: ŁUKASZ MURZYN – Image of a Local-Personal Identity – Heritage, on the right: KRZYSZTOF GIL – Dual Identity Image
+
   </figcaption>
 </figure>
 
 <figure class="custom-img-desc">
   <img class="custom-img" src="/images/posts/IdentityInBluePointArt03-Krzysztof_Marchlak&Łukasz_Murzyn.jpg" alt="KRZYSZTOF MARCHLAK – A non-heteronormative identity image, ŁUKASZ MURZYN – Image of a Local-Personal Identity – Heritage" />
   <figcaption>
+
     on the left: KRZYSZTOF MARCHLAK – A non-heteronormative identity image, on the right: ŁUKASZ MURZYN – Image of a Local-Personal Identity – Heritage
+
   </figcaption>
 </figure>
-
-
-
-

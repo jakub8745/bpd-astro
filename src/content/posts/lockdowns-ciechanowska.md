@@ -3,9 +3,9 @@ title: "Lockdowns by Joanna Ciechanowska"
 description: "meta description"
 date: 2020-08-15T05:00:00Z
 image: "/images/posts/lockdowns-joanna_ciechanowska.jpg"
-categories: ["art"]
-authors: ["Mark Dinn"]
-tags: ["diy", "toy"]
+categories: ["Exhibition"]
+authors: ["Justyna Gorzkowicz", "Jaroslaw Solecki"]
+tags: ["Joanna Ciechanowska", "Lockdowns", "art", "Exhibition", "3D"]
 draft: false
 ---
 
@@ -34,4 +34,3 @@ Project supported by the Polish Cultural Institute in London (PCI)
 <div class="flex items-center justify-center">
   <img src="/images/posts/logo_PolishCulturalInstitute.jpeg" alt="Project supported by the Polish Cultural Institute in London (PCI)" class="w-16 md:w-24 lg:w-64 h-auto mx-auto">
 </div>
-

@@ -5,6 +5,9 @@ import Pagination from "@/layouts/components/Pagination.astro";
 import Posts from "@/layouts/Posts.astro";
 import { getSinglePage } from "@/lib/contentParser.astro";
 import { sortByDate } from "@/lib/utils/sortFunctions";
+import React from 'react';
+import CookieConsent from '@/layouts/components/CookieConsent.jsx';
+
 
 const posts = await getSinglePage("posts");
 const sortedPosts = sortByDate(posts);
@@ -13,6 +16,8 @@ const currentPosts = sortedPosts.slice(0, config.settings.pagination);
 ---
 
 <Base>
+  <CookieConsent client:load />
+
   <section class="section">
     <div class="container">
       <Posts posts={currentPosts} className="mb-16" />

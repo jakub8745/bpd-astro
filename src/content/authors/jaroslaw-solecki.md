@@ -1,6 +1,6 @@
 ---
 title: Jaroslaw Solecki
-image: /images/authors/mark-dinn.jpg
+image: /images/authors/jaroslawsolecki.png
 description: this is meta description
 social:
   facebook: https://www.facebook.com/

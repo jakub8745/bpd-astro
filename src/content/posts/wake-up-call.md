@@ -3,9 +3,9 @@ title: "WAKE-UP CALL"
 description: "meta description"
 date: 2020-11-20T05:00:00Z
 image: "/images/posts/wakeUpCall.jpg"
-categories: ["development"]
-authors: ["John Doe"]
-tags: ["diy", "toy"]
+categories: ["Exhibition"]
+authors: ["Justyna Gorzkowicz", "Jaroslaw Solecki"]
+tags: ["Exhibition", "3D", "wakeup call", "11th Virtual Biennale Prague 2020", "PUNO"]
 draft: false
 ---
 11th Virtual Biennale Prague 2020 at the Blue Point Art Gallery (PUNO & Culture Lab Foundation)

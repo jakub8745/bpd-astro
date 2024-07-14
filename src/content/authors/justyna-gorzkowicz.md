@@ -1,6 +1,6 @@
 ---
 title: Justyna Gorzkowicz
-image: /images/authors/john-doe.jpg
+image: /images/authors/justynagorzkowicz.png
 description: this is meta description
 social:
   facebook: https://www.facebook.com/

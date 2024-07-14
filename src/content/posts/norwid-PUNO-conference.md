@@ -6,7 +6,7 @@ image: "/images/posts/norwid-konferencja-PUNO.jpg"
 draft: false
 authors: ["Justyna Gorzkowicz"]
 tags: ["PUNO", "XIth Annual April Conference", "Part of The Norwid Project", "Cyprian Norwid"]
-categories: ["Conference"]
+categories: ["Conference", "educational"]
 ---
 PUNO’s XIth Annual April Conference of the President Ryszard Kaczorowski
 INTERDISCIPLINARY INTERNATIONAL ACADEMIC CONFERENCE

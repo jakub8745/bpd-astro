@@ -6,7 +6,7 @@ image: "/images/posts/fate-and-soul-exhibit.png"
 draft: false
 authors: ["Justyna Gorzkowicz"]
 tags: ["Stanisław Vincenz", "Educational exhibition", "Dialogue on Fate and Soul", "Jan Choroszy", "Hutsul Region", "Jakub Żmidziński"]
-categories: ["Educational exhibition"]
+categories: ["Exhibition", "educational"]
 ---
 ## Project Description
 

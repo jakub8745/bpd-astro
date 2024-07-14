@@ -4,15 +4,15 @@ description: "meta description"
 date: 2021-04-01T16:56:47+06:00
 image: "/images/posts/Norwid – szkice-1536x629.jpg"
 draft: false
-authors: ["Mark Dinn"]
-tags: ["Balloon", "Gas"]
-categories: ["Accessories"]
+authors: ["Justyna Gorzkowicz", "Jaroslaw Solecki"]
+tags: ["educational", "Exhibition" , "3D", "Cyprian Norwid", "szkice"]
+categories: ["educational", "Exhibition"]
 ---
+
 ### Zapraszamy do oglądania wystawy rysunków i akwafort Cypriana Norwida.
 
-
-
 [![Exhibition 'Norwid – szkice'](</images/posts/Norwid – szkice-1536x629.jpg>)](https://norwid.szkice.bluepointart.uk/)
+
 #### [Wystawa 'Norwid-szkice']( https://norwid.szkice.bluepointart.uk/) https://norwid.szkice.bluepointart.uk/
 
 W 1852 Londyn, w tułaczej wędrówce poety, stanowił przystanek przed opuszczeniem Europy i podróżą do Stanów Zjednoczonych. Zamiarem organizatorów jest zainteresowanie twórczością ostatniego wielkiego z pokolenia romantyków, który uważał, że najważniejszym zadaniem sztuki jest dążenie do prawdy i budzenie sumień.
