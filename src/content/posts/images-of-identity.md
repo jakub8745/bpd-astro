@@ -24,34 +24,40 @@ The virtual exhibition [‘Images of Identity’ (18.12.2020-18.02.2021 at 3D Bl
 [Download PDF: Invitation_details](https://gateway.bluepointart.uk/ipfs/bafkreihqp77b4nai7qe737c5vq76t3xd5gkru7gshibebyyijckzjdetia)
 [Do ściagnięcia PDF: Zaproszenie_Szczegoly](https://gateway.bluepointart.uk/ipfs/bafkreihqp77b4nai7qe737c5vq76t3xd5gkru7gshibebyyijckzjdetia)
 
-<p class="custom-img-desc">
-  <img class="custom-img" src="/images/posts/IdentityInBluePointArt-Natalia_Kopytko.jpg" alt="NATALIA KOPYTKO – An image of an identity built from memories – Unreal Places">
-  <br>
-  NATALIA KOPYTKO – An image of an identity built from memories – <em>Unreal Places</em>
-</p>
+<figure class="custom-img-desc">
+    <img class="custom-img" src="/images/posts/IdentityInBluePointArt-Natalia_Kopytko.jpg" alt="NATALIA KOPYTKO – An image of an identity built from memories – Unreal Places">
+    <figcaption>
+        NATALIA KOPYTKO – An image of an identity built from memories – <em>Unreal Places</em>
+    </figcaption>
+</figure>
 
-<p class="custom-img-desc">
-  <img class="custom-img" src="/images/posts/IdentityInBluePointArt04-Małgorzata_Wielak.jpg" alt="MAŁGORZATA WIELEK-MANDRELA – Image of Identity Through a Creative Act">
-  <br>
-  on the right: MAŁGORZATA WIELEK-MANDRELA – Image of Identity Through a Creative Act
-</p>
+<figure class="custom-img-desc">
+    <img class="custom-img" src="/images/posts/IdentityInBluePointArt04-Małgorzata_Wielak.jpg" alt="MAŁGORZATA WIELEK-MANDRELA – Image of Identity Through a Creative Act">
+    <figcaption>
+        on the right: MAŁGORZATA WIELEK-MANDRELA – Image of Identity Through a Creative Act
+    </figcaption>
+</figure>
 
-<p class="custom-img-desc">
-  <img class="custom-img" src="/images/posts/IdentityInBluePointArt01-Wielak_Krzysztof_Marchlak.jpg" alt="KRZYSZTOF MARCHLAK – A non-heteronormative identity image">
-  <br>
-  on the left: MAŁGORZATA WIELEK-MANDRELA, in the background: KRZYSZTOF MARCHLAK – A non-heteronormative identity image 
-</p>
+<figure class="custom-img-desc">
+    <img class="custom-img" src="/images/posts/IdentityInBluePointArt01-Wielak_Krzysztof_Marchlak.jpg" alt="KRZYSZTOF MARCHLAK – A non-heteronormative identity image">
+    <figcaption>
+        on the left: MAŁGORZATA WIELEK-MANDRELA, in the background: KRZYSZTOF MARCHLAK – A non-heteronormative identity image
+    </figcaption>
+</figure>
 
-<p class="custom-img-desc">
-  <img class="custom-img" src="/images/posts/IdentityInBluePointArt02-Łukasz_Murzyn&Krzysztof_Gil.jpg" alt="ŁUKASZ MURZYN – Image of a Local-Personal Identity – Heritage & KRZYSZTOF GIL – Dual Identity Image">
-  <br>
-on the left: ŁUKASZ MURZYN – Image of a Local-Personal Identity – Heritage, on the right: KRZYSZTOF GIL – Dual Identity Image
-</p>
+<figure class="custom-img-desc">
+    <img class="custom-img" src="/images/posts/IdentityInBluePointArt02-Łukasz_Murzyn&Krzysztof_Gil.jpg" alt="ŁUKASZ MURZYN – Image of a Local-Personal Identity – Heritage & KRZYSZTOF GIL – Dual Identity Image">
+    <figcaption>
+        on the left: ŁUKASZ MURZYN – Image of a Local-Personal Identity – Heritage, on the right: KRZYSZTOF GIL – Dual Identity Image
+    </figcaption>
+</figure>
 
-<p class="custom-img-desc">
-  <img class="custom-img" src="/images/posts/IdentityInBluePointArt03-Krzysztof_Marchlak&Łukasz_Murzyn.jpg" alt="KRZYSZTOF MARCHLAK – A non-heteronormative identity image, ŁUKASZ MURZYN – Image of a Local-Personal Identity – Heritage">
-  <br>
-on the left: KRZYSZTOF MARCHLAK – A non-heteronormative identity image, on the right: ŁUKASZ MURZYN – Image of a Local-Personal Identity – Heritage
-</p>
+<figure class="custom-img-desc">
+    <img class="custom-img" src="/images/posts/IdentityInBluePointArt03-Krzysztof_Marchlak&Łukasz_Murzyn.jpg" alt="KRZYSZTOF MARCHLAK – A non-heteronormative identity image, ŁUKASZ MURZYN – Image of a Local-Personal Identity – Heritage">
+    <figcaption>
+        on the left: KRZYSZTOF MARCHLAK – A non-heteronormative identity image, on the right: ŁUKASZ MURZYN – Image of a Local-Personal Identity – Heritage
+    </figcaption>
+</figure>
+
 
 
