@@ -35,3 +35,4 @@ Project supported by the Polish Cultural Institute in London (PCI)
 <div class="flex items-center justify-center">
   <img src="/images/posts/logo_PolishCulturalInstitute.jpeg" alt="Project supported by the Polish Cultural Institute in London (PCI)" class="w-16 md:w-24 lg:w-64 h-auto mx-auto">
 </div>
+
