@@ -2,7 +2,7 @@
 title: "Educational exhibition Dialogue on Fate and Soul Stanisław Vincenz (1888—1971)"
 description: "meta description"
 date: 2022-10-05T16:56:47+06:00
-image: "/images/posts/fate-and-soul-exhibit.png"
+image: "/images/posts/fate-and-soul-exhibit.jpg"
 draft: false
 authors: ["Justyna Gorzkowicz"]
 tags: ["Stanisław Vincenz", "Educational exhibition", "Dialogue on Fate and Soul", "Jan Choroszy", "Hutsul Region", "Jakub Żmidziński"]

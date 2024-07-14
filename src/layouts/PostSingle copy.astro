@@ -18,46 +18,45 @@ const { title, description, authors, categories, image, date, tags } =
 ---
 
 <section class="section">
-  <header class="bg-black pt-12 pb-24">
-    <div class="container">
-      <div class="container justify-left pt-12 pb-6 pr-[27rem]">
-        <div class="col-md-8">
-          <!--################# TYTUL POSTA #####################-->
-          <h1 set:html={markdownify(title)} class="h2 mb-2 font-playfair text-white" />
-          <ul class="mt-4 flex flex-wrap items-start justify-start text-white">
-            <li class="mx-3">
-              {
-                allAuthors
-                  .filter((author) =>
-                    authors
-                      .map((author: string) => slugify(author))
-                      .includes(slugify(author.data.title)),
-                  )
-                  .map((author, i) => (
-                    <a
-                      href={`/authors/${slugify(author.slug)}`}
-                      class="flex items-center hover:text-primary font-medium"
-                    >
-                      {author.data.image && (
-                        <Image
-                          src={author.data.image}
-                          alt={author.data.title}
-                          height={50}
-                          width={50}
-                          class="mr-2 h-6 w-6 rounded-full"
-                        />
-                      )}
-                      <span>{author.data.title}</span>
-                    </a>
-                  ))
-              }
-            </li>
-            <li class="mx-3 flex items-center flex-wrap font-medium">
-              <BiCalendarEdit className="mr-1 h-5 w-5 text-gray-600" />
-              {dateFormat(date)}
-            </li>
-            <li class="mx-3 flex items-center flex-wrap">
-              <BiCategoryAlt className="mr-1 h-[18px] w-[18px] text-gray-600" />
+  <div class="container">
+    <article class="row justify-center">
+      <div class="md:col-10 text-center">
+        <h1 set:html={markdownify(title)} class="h2" />
+        <ul class="mt-4 flex flex-wrap items-center justify-center text-text">
+          <li class="mx-3">
+            {
+              allAuthors
+                .filter((author) =>
+                  authors
+                    .map((author: string) => slugify(author))
+                    .includes(slugify(author.data.title)),
+                )
+                .map((author, i) => (
+                  <a
+                    href={`/authors/${slugify(author.slug)}`}
+                    class="flex items-center hover:text-primary font-medium"
+                  >
+                    {author.data.image && (
+                      <Image
+                        src={author.data.image}
+                        alt={author.data.title}
+                        height={50}
+                        width={50}
+                        class="mr-2 h-6 w-6 rounded-full"
+                      />
+                    )}
+                    <span>{author.data.title}</span>
+                  </a>
+                ))
+            }
+          </li>
+          <li class="mx-3 flex items-center flex-wrap font-medium">
+            <BiCalendarEdit className="mr-1 h-5 w-5 text-gray-600" />
+            <>{dateFormat(date)}</>
+          </li>
+          <li class="mx-3 flex items-center flex-wrap">
+            <BiCategoryAlt className="mr-1 h-[18px] w-[18px] text-gray-600" />
+            <>
               <ul>
                 {
                   categories.map((category: string, i: number) => (
@@ -73,16 +72,12 @@ const { title, description, authors, categories, image, date, tags } =
                   ))
                 }
               </ul>
-            </li>
-          </ul>
-        </div>
+            </>
+          </li>
+        </ul>
       </div>
-    </div>
-  </header>
 
-  <div class="container">
-    <article class="row justify-center mt-8">
-     
+    
 
       <div class="md:col-10">
         <div class="content mb-16 text-left">
