@@ -20,10 +20,16 @@ const { title, description, authors, categories, image, date, tags } =
 <section class="section">
   <header class="bg-black pt-12 pb-24">
     <div class="container">
-      <div class="container justify-left pt-12 pb-6 pr-[27rem]">
+      <div class="container justify-left pt-[1.2rem]">
         <div class="col-md-8">
           <!--################# TYTUL POSTA #####################-->
-          <h1 set:html={markdownify(title)} class="h2 mb-2 font-playfair text-white" />
+          <h1
+            set:html={markdownify(title)}
+            class="h2 mb-2 font-playfair font-normal text-white"
+          />
+
+          <div class="title-seperator"></div>
+
           <ul class="mt-4 flex flex-wrap items-start justify-start text-white">
             <li class="mx-3">
               {
@@ -82,8 +88,6 @@ const { title, description, authors, categories, image, date, tags } =
 
   <div class="container">
     <article class="row justify-center mt-8">
-     
-
       <div class="md:col-10">
         <div class="content mb-16 text-left">
           <Content />

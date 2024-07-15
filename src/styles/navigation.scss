@@ -64,3 +64,7 @@ input#nav-toggle:checked~#nav-menu {
     @apply visible opacity-100;
   }
 }
+
+.title-seperator {
+  @apply bg-white h-[3px] w-[10em];
+}
