@@ -3,27 +3,20 @@ title: "publishing-dystopia-of-imitation"
 description: "this is meta description"
 draft: false
 ---
+“Jaroslaw Solecki’s The Dystopia of an Imitation presents a creative way of exploring
+the ‘matter’ of art. The central issue taken up in the work is the sculpting process realised
+in stone, clay and in the form of digital 3D graphics. Solecki’s reflection on the
+materialisation of an artistic work in relation to algorithm-based art is of undeniable value.
+He also points out that the materialisation of the concept is ‘performed’ in the same way
+that the viewer of graphic forms in 3D is ‘performed’ (guided by the artist creating the
+computer generated images), which makes it easier to frame VR art through the perspective
+of the performative turn in the humanities. […]”, Prof. Aleksandra Łukaszewicz
 
-tpublishing-dystopia-of-imitationpublishing-dystopia-of-imitationpublishing-dystopia-of-imitationpublishing-dystopia-of-imitationpublishing-dystopia-of-imitationpublishing-dystopia-of-imitationpublishing-dystopia-of-imitation
+ISBN 978-1-9160592-8-3
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus, donec nunc eros, ullamcorper id feugiat quisque aliquam sagittis. Sem turpis sed viverra massa gravida pharetra. Non dui dolor potenti eu dignissim fusce. Ultrices amet, in curabitur a arcu a lectus morbi id. Iaculis erat sagittis in tortor cursus. Molestie urna eu tortor, erat scelerisque eget. Nunc hendrerit sed interdum lacus. Lorem quis viverra sed
+The publication “The Dystopia of an Imitation” was prepared as part of the grant programme Arts Council England: Developing Your Creative Practice (DYCP-00349467-R8), London 2021–2022
 
-pretium, aliquam sit. Praesent elementum magna amet, tincidunt eros, nibh in leo. Malesuada purus, lacus, at aliquam suspendisse tempus. Quis tempus amet, velit nascetur sollicitudin. At sollicitudin eget amet in. Eu velit nascetur sollicitudin erhdfvssfvrgss eget viverra nec elementum. Lacus, facilisis tristique lectus in.
+Supported by the Embassy of the Republic of Poland in London and The Polonia Aid Foundation Trust (PAFT)
 
-#### Gathering of Personal Information
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus, donec nunc eros, ullamcorper id feugiat quisque aliquam sagittis. Sem turpis sed viverra massa gravida pharetra. Non dui dolor potenti eu dignissim fusce. Ultrices amet, in curabitur a arcu a lectus morbi id. Iaculis erat sagittis in tortor cursus. Molestie urna eu tortor, erat scelerisque eget. Nunc hendrerit sed interdum lacus. Lorem quis viverra sed
-
-#### Protection of Personal- Information
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus, donec nunc eros, ullamcorper id feugiat quisque aliquam sagittis. Sem turpis sed viverra massa gravida pharetra. Non dui dolor potenti eu dignissim fusce. Ultrices amet, in curabitur a arcu a lectus morbi id. Iaculis erat sagittis in tortor cursus.
-
-Molestie urna eu tortor, erat scelerisque eget. Nunc hendrerit sed interdum lacus. Lorem quis viverra sed
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus, donec nunc eros, ullamcorper id feugiat
-
-#### Privacy Policy Changes
-
-1. Sll the Themefisher items are designed to be with the latest , We check all
-2. comments that threaten or harm the reputation of any person or organization
-3. personal information including, but limited to, email addresses, telephone numbers
-4. Any Update come in The technology Customer will get automatic Notification.
+[Download “The Dystopia of an Imitation” booklet from](https://zenodo.org/record/6633680) https://zenodo.org/record/6633680
+)
