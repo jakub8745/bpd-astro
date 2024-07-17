@@ -2,6 +2,10 @@ import { SESClient, SendEmailCommand } from '@aws-sdk/client-ses';
 
 const sesClient = new SESClient({ region: 'eu-west-2' });
 
+export async function get() {
+  return new Response(JSON.stringify({ message: 'This endpoint is for POST requests only.' }), { status: 405 });
+}
+
 export async function post({ request }) {
   const { name, email, subject, message } = await request.json();
 
