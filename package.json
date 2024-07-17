@@ -2,9 +2,12 @@
   "name": "bpd-astro",
   "version": "2.0.1",
   "license": "MIT",
+  "main": "server.mjs",
+  "type": "module",
   "scripts": {
-    "dev": "astro dev",
+   "start": "astro dev",
     "build": "astro build",
+    "preview": "astro preview",
     "format": "prettier -w ."
   },
   "dependencies": {
@@ -13,24 +16,23 @@
     "@astrojs/rss": "^4.0.6",
     "@astrojs/sitemap": "^3.1.5",
     "@astrojs/tailwind": "^5.1.0",
+    "@aws-sdk/client-ses": "^3.614.0",
     "astro": "^4.9.3",
     "astro-auto-import": "^0.4.2",
     "astro-font": "^0.0.81",
     "autoprefixer": "^10.4.19",
-    "aws-sdk": "^2.1659.0",
-    "body-parser": "^1.20.2",
     "date-fns": "^3.6.0",
-    "express": "^4.19.2",
     "fuse.js": "^7.0.0",
     "gray-matter": "^4.0.3",
     "marked": "^12.0.2",
+    "preact": "^10.22.1",
+    "preact-hooks": "^0.0.0-0.0.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-icons": "^5.2.1",
     "react-lite-youtube-embed": "^2.4.0",
     "remark-collapse": "^0.1.2",
-    "remark-toc": "^9.0.0",
-    "vercel": "^35.0.1"
+    "remark-toc": "^9.0.0"
   },
   "devDependencies": {
     "@sendgrid/mail": "^7.4.0",
