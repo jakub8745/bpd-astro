@@ -1,51 +1,90 @@
 import React, { useState } from 'react';
 
-export default function ContactForm() {
-  const [form, setForm] = useState({ name: '', email: '', subject: '', message: '' });
-  const [status, setStatus] = useState(null);
+const ContactForm = ({ action }) => {
+  const [formData, setFormData] = useState({
+    name: '',
+    email: '',
+    message: ''
+  });
 
-  const handleSubmit = async (event) => {
-    event.preventDefault();
-    try {
-      const response = await fetch('/api/contact', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(form),
-      });
-      const result = await response.json();
-      if (response.ok) {
-        setStatus('Email sent successfully!');
-        setForm({ name: '', email: '', subject: '', message: '' });
-      } else {
-        setStatus(`Error: ${result.error}`);
-      }
-    } catch (error) {
-      setStatus('Error sending email.');
-    }
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData({
+      ...formData,
+      [name]: value
+    });
+  };
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    console.log('Form Data:', formData);
+
+    // Prevent default form submission
+    e.preventDefault();
+
+    // Optional: Add form submission logic here, such as sending a POST request
+    // to the specified `action` URL.
+
+    // Example:
+    // const response = await fetch(action, {
+    //   method: 'POST',
+    //   headers: {
+    //     'Content-Type': 'application/json'
+    //   },
+    //   body: JSON.stringify(formData)
+    // });
+
+    // Handle response
   };
 
   return (
-    <form className="contact-form row gy-2 justify-center" onSubmit={handleSubmit}>
-      <div className="lg:col-6">
-        <label className="mb-2 block" htmlFor="name">Name <span className="text-red-600">*</span></label>
-        <input className="form-input w-full" name="name" type="text" required value={form.name} onChange={(e) => setForm({ ...form, name: e.target.value })} />
+    <form onSubmit={handleSubmit} className="space-y-6">
+      <div>
+        <label htmlFor="name" className="block text-sm font-medium text-gray-700">Name</label>
+        <input
+          type="text"
+          name="name"
+          id="name"
+          value={formData.name}
+          onChange={handleChange}
+          className="mt-1 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md"
+          required
+        />
       </div>
-      <div className="lg:col-6">
-        <label className="mb-2 block" htmlFor="email">Email <span className="text-red-600">*</span></label>
-        <input className="form-input w-full" name="email" type="email" required value={form.email} onChange={(e) => setForm({ ...form, email: e.target.value })} />
+      <div>
+        <label htmlFor="email" className="block text-sm font-medium text-gray-700">Email</label>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          value={formData.email}
+          onChange={handleChange}
+          className="mt-1 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md"
+          required
+        />
       </div>
-      <div className="col-12">
-        <label className="mb-2 block" htmlFor="subject">Subject</label>
-        <input className="form-input w-full" name="subject" type="text" value={form.subject} onChange={(e) => setForm({ ...form, subject: e.target.value })} />
+      <div>
+        <label htmlFor="message" className="block text-sm font-medium text-gray-700">Message</label>
+        <textarea
+          name="message"
+          id="message"
+          value={formData.message}
+          onChange={handleChange}
+          rows="4"
+          className="mt-1 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md"
+          required
+        />
       </div>
-      <div className="col-12">
-        <label className="mb-2 block" htmlFor="message">Message <span className="text-red-600">*</span></label>
-        <textarea className="form-textarea w-full" rows="4" name="message" required value={form.message} onChange={(e) => setForm({ ...form, message: e.target.value })}></textarea>
+      <div>
+        <button
+          type="submit"
+          className="inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+        >
+          Submit
+        </button>
       </div>
-      <div className="col-12">
-        <button className="btn btn-primary mt-2" type="submit">Submit Now</button>
-      </div>
-      {status && <p>{status}</p>}
     </form>
   );
-}
+};
+
+export default ContactForm;

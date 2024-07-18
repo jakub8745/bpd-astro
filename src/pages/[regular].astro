@@ -23,7 +23,21 @@ export async function getStaticPaths() {
 }
 
 const { page } = Astro.props;
-const { title, meta_title, description, image } = page.data;
+//const { title, meta_title, description, image } = page.data;
+let title, meta_title, description, image;
+
+
+if (page && page.data) {
+  title = page.data.title || title;
+  meta_title = page.data.meta_title || meta_title;
+  description = page.data.description || description;
+  image = page.data.image || image;
+
+  // Rest of your code...
+} else {
+  // Handle the case when 'page' or 'page.data' is undefined
+  console.error("'page' or 'page.data' is undefined");
+}
 ---
 
 <Base
@@ -40,3 +54,8 @@ const { title, meta_title, description, image } = page.data;
     )
   }
 </Base>
+
+
+
+
+

@@ -1,6 +1,12 @@
 import { SESClient, SendEmailCommand } from '@aws-sdk/client-ses';
 
-const sesClient = new SESClient({ region: 'eu-west-2' });
+const sesClient = new SESClient({
+  region: 'eu-west-2',
+  credentials: {
+    accessKeyId: 'YOUR_ACCESS_KEY_ID',
+    secretAccessKey: 'YOUR_SECRET_ACCESS_KEY'
+  }
+});
 
 export async function get() {
   return new Response(JSON.stringify({ message: 'This endpoint is for POST requests only.' }), { status: 405 });
