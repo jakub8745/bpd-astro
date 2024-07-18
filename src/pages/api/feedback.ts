@@ -1,6 +1,8 @@
 import type { APIRoute } from "astro";
-const AWS = require('aws-sdk');
-const ses = new AWS.SES({ region: 'eu-west-2' });
+import { SESClient, SendEmailCommand } from "@aws-sdk/client-ses";
+
+// Create an instance of the SESClient
+const sesClient = new SESClient({ region: 'eu-west-2' });
 
 export const POST: APIRoute = async ({ request }) => {
     const contentType = request.headers.get("Content-Type");
@@ -20,7 +22,7 @@ export const POST: APIRoute = async ({ request }) => {
 
     console.log({ name, email, feedbackMessage });
 
-    // Validate the data - you'll probably want to do more than this
+    // Validate the data
     if (!name || !email || !feedbackMessage) {
         return new Response(
             JSON.stringify({
@@ -40,6 +42,39 @@ export const POST: APIRoute = async ({ request }) => {
 
     // Log the data
     console.log("Data received:", { name, email, feedbackMessage });
+
+    // Set the parameters for the email
+    const params = {
+        Destination: {
+            ToAddresses: ['recipient@example.com'],
+        },
+        Message: {
+            Body: {
+                Text: {
+                    Data: `Name: ${name}\nEmail: ${email}\nFeedback: ${feedbackMessage}`,
+                },
+            },
+            Subject: {
+                Data: 'Feedback Form Submission',
+            },
+        },
+        Source: 'sender@example.com',
+    };
+
+    // Send the email
+    const sendEmailCommand = new SendEmailCommand(params);
+    try {
+        await sesClient.send(sendEmailCommand);
+        console.log("Email sent successfully");
+    } catch (error) {
+        console.error("Error sending email:", error);
+        return new Response(
+            JSON.stringify({
+                message: "Error sending email",
+            }),
+            { status: 500 }
+        );
+    }
 
     // Return the success response with the data
     return new Response(
