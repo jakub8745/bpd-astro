@@ -1,4 +1,6 @@
 import type { APIRoute } from "astro";
+const AWS = require('aws-sdk');
+const ses = new AWS.SES({ region: 'eu-west-2' });
 
 export const POST: APIRoute = async ({ request }) => {
     const contentType = request.headers.get("Content-Type");
