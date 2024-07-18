@@ -1,8 +1,14 @@
 import type { APIRoute } from "astro";
 import { SESClient, SendEmailCommand } from "@aws-sdk/client-ses";
 
-// Create an instance of the SESClient
-const sesClient = new SESClient({ region: 'eu-west-2' });
+// Create an instance of the SESClient using environment variables
+const sesClient = new SESClient({
+    region: process.env.AWS_REGION,
+    credentials: {
+        accessKeyId: process.env.AWS_ACCESS_KEY_ID || "",
+        secretAccessKey: process.env.AWS_SECRET_ACCESS_KEY || "",
+    },
+});
 
 export const POST: APIRoute = async ({ request }) => {
     const contentType = request.headers.get("Content-Type");
@@ -46,7 +52,7 @@ export const POST: APIRoute = async ({ request }) => {
     // Set the parameters for the email
     const params = {
         Destination: {
-            ToAddresses: ['recipient@example.com'],
+            ToAddresses: ['info@bluepointart.uk'], // Set the recipient email
         },
         Message: {
             Body: {
@@ -58,7 +64,7 @@ export const POST: APIRoute = async ({ request }) => {
                 Data: 'Feedback Form Submission',
             },
         },
-        Source: 'sender@example.com',
+        Source: 'info@bluepointart.uk', // Set the sender email
     };
 
     // Send the email
