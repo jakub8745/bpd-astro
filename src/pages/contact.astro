@@ -6,6 +6,8 @@ import { getEntryBySlug } from "astro:content";
 import { FaAddressCard, FaEnvelope, FaPhoneAlt } from "react-icons/fa";
 import FeedbackForm from "@/layouts/components/FeedbackForm"
 
+import ContactForm from "@/layouts/components/ContactForm.astro"
+
 
 const entry = await getEntryBySlug("pages", "contact");
 const { address, email, phone } = config.contactinfo;
@@ -49,6 +51,7 @@ const { title, description, meta_title, image } = entry.data;
         </div>
         <div class="sm:col-7 md:col-8">
           <FeedbackForm client:load />
+          <ContactForm />
         </div>
       </div>
     </div>
