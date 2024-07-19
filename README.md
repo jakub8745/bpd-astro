@@ -1,4 +1,6 @@
-# Welcome to Blue Point Art Gallery London website
+
+# [Welcome to Blue Point Art Gallery London website](https://bluepointart.uk/)
+
 
 Blue Point Art Gallery London is a groundbreaking virtual art space that emerged in response to the challenges of the pandemic in 2020. Our gallery uses the latest 3D graphics technology, accessible through web browsers, to create a dynamic and multifaceted platform for artistic expression, documentation, and education. Our virtual space is designed to foster both verbal and non-verbal exchanges among artists, researchers, and the public. It allows for a seamless and engaging experience without the need for any additional applications.
 
