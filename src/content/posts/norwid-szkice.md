@@ -2,7 +2,7 @@
 title: "Norwid – szkice"
 description: "meta description"
 date: 2021-04-01T16:56:47+06:00
-image: "/images/posts/Norwid – szkice-1536x629.jpg"
+image: "/images/posts/NorwidSzkice1536x629.jpg"
 draft: false
 authors: ["Justyna Gorzkowicz", "Jaroslaw Solecki"]
 tags: ["educational", "Exhibition" , "3D", "Cyprian Norwid", "szkice"]
