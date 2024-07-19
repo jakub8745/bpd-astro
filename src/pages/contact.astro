@@ -5,7 +5,7 @@ import { markdownify } from "@/lib/utils/textConverter";
 import { getEntryBySlug } from "astro:content";
 import { FaAddressCard, FaEnvelope, FaPhoneAlt } from "react-icons/fa";
 
-import ContactForm from "@/layouts/components/ContactForm.astro"
+import ContactForm from "@/layouts/components/ContactForm.astro";
 
 
 const entry = await getEntryBySlug("pages", "contact");
@@ -39,6 +39,7 @@ const { title, description, meta_title, image } = entry.data;
               </div>
               <p class="mt-2 leading-5 pl-8 content" set:html={markdownify(email)} />
             </li>
+            <!--- 
             <li>
               <div class="flex text-theme-dark items-center text-xl">
                 <FaPhoneAlt className="mr-3 text-primary" />
@@ -46,6 +47,7 @@ const { title, description, meta_title, image } = entry.data;
               </div>
               <p class="mt-2 leading-5 pl-8" set:html={markdownify(phone)} />
             </li>
+             -->
           </ul>
         </div>
         <div class="sm:col-7 md:col-8">

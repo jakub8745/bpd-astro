@@ -18,7 +18,7 @@ categories: ["presentation", "conference"]
  
 <Video
   width="640" controls loop autoplay
-  src="src/content/posts/dariah-poster-presentation.webm"
+  src="/images/posts/dariah-poster-presentation.mp4"
 />
 </br>
 <p style="font-size: 0.95rem; line-height: 1.2;">
