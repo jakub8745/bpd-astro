@@ -168,6 +168,12 @@ const { title, meta_title, description, image, noindex, canonical } =
       }`}
     />
     <meta name="twitter:card" content="summary_large_image" />
+
+    <!-- og-logo -->
+    <meta
+      property="og:logo"
+      content={`${config.site.base_url}${image ? image : config.site.logo}`}
+    />
   </head>
   <body>
     <TwSizeIndicator />
