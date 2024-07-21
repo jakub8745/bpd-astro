@@ -1,6 +1,6 @@
 {
   "site": {
-    "title": "Blue Point Art Projects Website",
+    "title": "Blue Point Art London Projects",
     "base_url": "https://bluepointart.uk",
     "base_path": "/",
     "trailing_slash": false,
@@ -19,7 +19,7 @@
   "metadata": {
     "meta_author": "Blue Point Art",
     "meta_image": "/images/posts/BluePointArtLondonAbout.png",
-    "meta_description": "Blue Point Art London Website"
+    "meta_description": "Blue Point Art London Projects"
   },
 
   "params": {
