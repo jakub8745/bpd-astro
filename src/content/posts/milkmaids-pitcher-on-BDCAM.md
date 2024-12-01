@@ -2,7 +2,7 @@
 title: "‘Milkmaid's pitcher’ – Born-Digital Multimodal Art Project"
 description: "meta description"
 date: 2024-12-01T20:56:47+06:00
-image: "/images/posts/MilkmaidsPitcher1200.jpg"
+image: "/images/posts/milkmaids-pitcher.jpg"
 draft: false
 authors: ["Jaroslaw Solecki"]
 tags: ["webGl/webXR", "art installation", "Milkmaid's Pitcher"]
@@ -21,9 +21,6 @@ The _Milkmaid's Pitcher_ is not just a generative artwork - it is a living, brea
   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
   allowfullscreen>
 </iframe>
-
-
-
 
 ### An ever-changing sculpture
 
