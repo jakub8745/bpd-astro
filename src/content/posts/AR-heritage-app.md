@@ -36,7 +36,10 @@ ARHeritageTour App is a pilot project to test the feasibility of using new techn
    - Touch the **pink pointer** on the surface where you want to place an object  
    - The app will then display **memories and artwork** related to **Krystyna Bednarczyk and Poets’ Press**  
 
-Enjoy exploring the **AR heritage experience!**
+
+
+<a href="https://ar-heritagetour.bluepointart.uk/" target="_blank">Enjoy exploring the AR heritage experience! https://ar-heritagetour.bluepointart.uk/</a>
+
 
 
 [![Made possible with Heritage Fund](</images/posts//TNLHF_English_Acknowledgement_Stamp_Colour_PNG.png>)](https://www.heritagefund.org.uk/)
