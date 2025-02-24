@@ -39,4 +39,4 @@ ARHeritageTour App is a pilot project to test the feasibility of using new techn
 Enjoy exploring the **AR heritage experience!**
 
 
-[![Made possible with Heritage Fund](</images/posts/TNLHF_Acknowledgement_512.png>)](https://www.heritagefund.org.uk/)
+[![Made possible with Heritage Fund](</images/posts//TNLHF_English_Acknowledgement_Stamp_Colour_PNG.png>)](https://www.heritagefund.org.uk/)
