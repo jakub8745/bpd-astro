@@ -33,7 +33,7 @@ ARHeritageTour App is a pilot project to test the feasibility of using new techn
    - The app will then display **memories and artwork** related to **Krystyna Bednarczyk and Poets’ Press**  
 
 
-<a href="https://ar-heritagetour.bluepointart.uk/" target="_blank">Enjoy exploring the AR heritage experience!</a>
+<a href="https://ar-heritagetour.bluepointart.uk/" target="_blank">Enjoy exploring the AR heritage experience!</a><br />
 <a href="https://www.heritagefund.org.uk/" target="_blank"><img src="/images/posts//TNLHF_English_Acknowledgement_Stamp_Colour_PNG.png" width="200" height="auto" /></a>
 
 
