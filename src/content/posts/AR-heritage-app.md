@@ -20,26 +20,20 @@ ARHeritageTour App is a pilot project to test the feasibility of using new techn
 1. **Device Requirements:**  
    - Android **8.1 or later**  
    - iPhone **(requires XRViewer or XR Browser installation)**  
-
 2. **Access the App:**  
    - Scan the **QR code** or follow the provided **link**  
-
 3. **Grant Permissions:**  
    - When prompted, **allow camera access**  
-
 4. **Using the App:**  
    - Ensure you are in a **well-lit environment**  
    - Look around through your phone to explore in **Augmented Reality (AR)**  
    - A **pink pointer circle** should appear, tracking **walls and floors**  
-
 5. **Placing Objects:**  
    - Touch the **pink pointer** on the surface where you want to place an object  
    - The app will then display **memories and artwork** related to **Krystyna Bednarczyk and Poets’ Press**  
 
 
+<a href="https://ar-heritagetour.bluepointart.uk/" target="_blank">Enjoy exploring the AR heritage experience!</a>
+<a href="https://www.heritagefund.org.uk/" target="_blank"><img src="/images/posts//TNLHF_English_Acknowledgement_Stamp_Colour_PNG.png" width="200" height="auto" /></a>
 
-<a href="https://ar-heritagetour.bluepointart.uk/" target="_blank">Enjoy exploring the AR heritage experience! https://ar-heritagetour.bluepointart.uk/</a>
 
-
-
-[![Made possible with Heritage Fund](</images/posts//TNLHF_English_Acknowledgement_Stamp_Colour_PNG.png>)](https://www.heritagefund.org.uk/)
