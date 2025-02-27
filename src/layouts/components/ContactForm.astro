@@ -1,0 +1,86 @@
+---
+/* Astro frontmatter can be used for component-specific logic if needed. */
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Form</title>
+  </head>
+  <body>
+    <form method="POST" id="form">
+      <input
+        type="hidden"
+        name="access_key"
+        value="6b5a4ecd-4e10-44b5-b3cf-0cb7553ae805"
+      />
+      Name
+      <input
+        type="text"
+        name="name"
+        class="mt-1 mb-4 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md"
+        required
+      />
+    
+      e-mail
+      <input
+        type="email"
+        name="email"
+        class="mt-1 mb-4 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md"
+        required
+      />
+      Your message
+      <textarea
+        name="message"
+        class="mt-1 mb-4 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md"
+        required></textarea>
+     
+      <button
+        type="submit"
+        class="inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+        >Submit</button
+      >
+
+      <div id="result"></div>
+    </form>
+
+    <script>
+      const form = document.getElementById("form");
+      const result = document.getElementById("result");
+
+      console.log(form);
+
+      form.addEventListener("submit", async function (e) {
+        e.preventDefault();
+        const formData = new FormData(form);
+        const object = Object.fromEntries(formData);
+        const json = JSON.stringify(object);
+
+        result.innerHTML = "Please wait...";
+
+        try {
+          const response = await fetch("https://api.web3forms.com/submit", {
+            method: "POST",
+            headers: {
+              "Content-Type": "application/json",
+              Accept: "application/json",
+            },
+            body: json,
+          });
+          const jsonResponse = await response.json();
+          result.innerHTML = jsonResponse.message;
+        } catch (error) {
+          console.error(error);
+          result.innerHTML = "Something went wrong!";
+        } finally {
+          form.reset();
+          setTimeout(() => {
+            result.style.display = "none";
+          }, 3000);
+        }
+      });
+    </script>
+  </body>
+</html>

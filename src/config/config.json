@@ -1,0 +1,35 @@
+{
+  "site": {
+    "title": "Blue Point Art London Projects",
+    "base_url": "https://bluepointart.uk",
+    "base_path": "/",
+    "trailing_slash": false,
+    "favicon": "/images/favicon.png",
+    "logo": "/images/logo.gif",
+    "logo_width": "170",
+    "logo_height": "100",
+    "logo_text": "Blue Point Art"
+  },
+
+  "settings": {
+    "pagination": 5,
+    "summary_length": 100
+  },
+
+  "metadata": {
+    "meta_author": "Blue Point Art",
+    "meta_image": "/images/posts/BluePointArtLondonAbout.png",
+    "meta_description": "Blue Point Art London Projects"
+  },
+
+  "params": {
+    "contact_form_action": "#",
+    "copyright": "Copyright © 2024 Blue Point Art"
+  },
+
+  "contactinfo": {
+    "address": "Blue Point Art ltd, London, UK",
+    "email": "info@bluepointart.uk",
+    "phone": ""
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "files.associations": {
+    "*.mdx": "markdown"
+  },
+  "markdown-editor.imageSaveFolder": "${projectRoot}/public/images/posts"
+}

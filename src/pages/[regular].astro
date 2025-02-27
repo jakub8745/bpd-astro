@@ -1,0 +1,62 @@
+---
+export const prerender = true;
+import Base from "@/layouts/Base.astro";
+import Default from "@/layouts/Default.astro";
+import PostSingle from "@/layouts/PostSingle.astro";
+import { getSinglePage } from "@/lib/contentParser.astro";
+import type { TPost } from "@/types";
+
+const getPosts = (await getSinglePage("posts")) as TPost[];
+const postsSlug = getPosts.map((item) => item.slug);
+
+export async function getStaticPaths() {
+  const posts = await getSinglePage("posts");
+  const pages = await getSinglePage("pages");
+  const allPages = [...pages, ...posts];
+
+  const paths = allPages.map((page: any) => ({
+    params: {
+      regular: page.slug,
+    },
+    props: { page },
+  }));
+  return paths;
+}
+
+const { page } = Astro.props;
+//const { title, meta_title, description, image } = page.data;
+let title, meta_title, description, image;
+
+
+if (page && page.data) {
+  title = page.data.title || title;
+  meta_title = page.data.meta_title || meta_title;
+  description = page.data.description || description;
+  image = page.data.image || image;
+
+  // Rest of your code...
+} else {
+  // Handle the case when 'page' or 'page.data' is undefined
+  console.error("'page' or 'page.data' is undefined");
+}
+---
+
+<Base
+  title={title}
+  meta_title={meta_title}
+  description={description}
+  image={image}
+>
+  {
+    postsSlug.includes(page.slug) ? (
+      <PostSingle post={page} />
+    ) : (
+      <Default data={page} />
+    )
+  }
+</Base>
+
+
+
+
+

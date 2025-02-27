@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "target": "ESNext", // Updated to ESNext for modern JavaScript features
+    "module": "ESNext", // Ensure ESNext module resolution
+    "moduleResolution": "Node", // Ensure Node module resolution
+    "allowJs": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "jsx": "react-jsx", // Updated to use the new JSX transform
+    "isolatedModules": true,
+    "incremental": true,
+    "allowSyntheticDefaultImports": true,
+    "skipLibCheck": true, // Skip type checking of declaration files
+    "paths": {
+      "@/components/*": ["./src/layouts/components/*"],
+      "@/shortcodes/*": ["./src/layouts/shortcodes/*"],
+      "@/helpers/*": ["./src/layouts/helpers/*"],
+      "@/partials/*": ["./src/layouts/partials/*"],
+      "@/*": ["./src/*"]
+    },
+    "types": ["astro/client"] // Include Astro types
+  },
+  "include": ["src/**/*.ts", "src/**/*.tsx", "src/**/*.astro"], // Scoped include to src directory
+  "exclude": ["node_modules"]
+}
