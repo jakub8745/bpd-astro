@@ -2,7 +2,7 @@
 title: "Ten Years & Counting – Martin Taylor's Solo Retrospective"
 description: "Ten Years & Counting – Martin Taylor's Solo Retrospective Exhibition of Paintings organised by Blue Point Art Gallery"
 date: 2025-03-14T12:56:47+06:00
-image: "/images/posts/TenYears&Counting-MartinTaylor-exhibit.jpg"
+image: "/images/posts/tenyearsandcounting-martintaylor-exhibit.jpg"
 draft: false
 authors: ["Justyna Gorzkowicz", "Jaroslaw Solecki"]
 tags: ["Martin Taylor", "Solo Retrospective Exhibition", "Paintings", "POSK Gallery", "ZPPnO"]
