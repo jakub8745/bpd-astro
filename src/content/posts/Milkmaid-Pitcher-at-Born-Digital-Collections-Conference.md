@@ -32,6 +32,12 @@ Ultimately, *Milkmaid’s Pitcher* is about exploring new ways of creating, shar
 If you’re attending the conference, come say hi or reach out online—I’d love to connect.
 
 
-
+<div class="card">
+  <a href="https://borndigital.bluepointart.uk/" target="_blank">
+    <img src="src/content/posts/Milkmaid-og.jpg" alt="Milkmaid’s Pitcher">
+    <h3>Milkmaid's pitcher – Born-Digital Multimodal Art Project</h3>
+    <p>DEMO presented at the Born-Digital Collections, Archives & Memory Conference – 3 April, SAS, University of London</p>
+  </a>
+</div>
 
 
