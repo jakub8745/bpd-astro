@@ -2,7 +2,7 @@
 title: "The exhibition 'Vincenz's Dialogues - Views'"
 description: "meta description"
 date: 2023-06-29T05:00:00Z
-image: "https://gateway.bluepointart.uk/ipfs/bafkreichmkxpte5zsc4xhzjxlhgndf5umyklfepvezxyitmjhlghxibiqi"
+image: "https://bafkreichmkxpte5zsc4xhzjxlhgndf5umyklfepvezxyitmjhlghxibiqi.ipfs.w3s.link/"
 categories: ["photography", "Exhibition", "educational"]
 authors: ["Justyna Gorzkowicz", "Jaroslaw Solecki"]
 tags: ["Vincenz", "Lidio Cipriani", "Hutsul region", "ethnographic", "documentation", "photography", "educational", "Exhibition" , "3D"]

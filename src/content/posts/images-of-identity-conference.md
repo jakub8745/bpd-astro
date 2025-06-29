@@ -16,9 +16,9 @@ Konferencja oraz wirtualna wystawa “Images of Identity” (18.12.2020-18.02.20
 
 The conference and the virtual exhibition ‘Images of Identity’ (18.12.2020-18.02.2021, 3D Blue Point Art Gallery at PUNO London) are parts of the interdisciplinary research project: “The Question of “Identity” in an Interdisciplinary Approach 2020/2021″. The project is carried out in cooperation with the Institute of European Culture of the Polish University Abroad of the Ignacy Jan Paderewski in London and the Institute of Painting and Artistic Education of Art Department of the Pedagogical University of the National Commission in Cracow.
 
-[CONFERENCE PROGRAMME IN PDF FORM – HERE](https://gateway.bluepointart.uk/ipfs/bafkreihqp77b4nai7qe737c5vq76t3xd5gkru7gshibebyyijckzjdetia)
+[CONFERENCE PROGRAMME IN PDF FORM – HERE](https://bafkreihqp77b4nai7qe737c5vq76t3xd5gkru7gshibebyyijckzjdetia.ipfs.w3s.link/)
 
-[BOOK OF ABSTRACTS](https://gateway.bluepointart.uk/ipfs/bafkreihqp77b4nai7qe737c5vq76t3xd5gkru7gshibebyyijckzjdetia)
+[BOOK OF ABSTRACTS](https://bafkreihqp77b4nai7qe737c5vq76t3xd5gkru7gshibebyyijckzjdetia.ipfs.w3s.link/)
 
 [O wydarzeniu w “Biuletynie Polonistycznym”](https://biuletynpolonistyczny.pl/pl/events/tozsamosc-nasza-powszednia-miedzynarodowa-konferencja,2282/details)
 [Event on Facebook](https://www.facebook.com/events/229212728550208)

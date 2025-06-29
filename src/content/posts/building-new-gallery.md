@@ -13,6 +13,6 @@ I have completely redefined our gallery. It brings us closer to the concept of t
 
 <Video
   width="100%"
-  src="https://gateway.bluepointart.uk/ipfs/bafybeib3ytjy4zffr3bhwxax5hf4ojwdnbecpwybwwu6foa2o3rzaew6iq"
+  src="https://bafybeib3ytjy4zffr3bhwxax5hf4ojwdnbecpwybwwu6foa2o3rzaew6iq.ipfs.w3s.link/"
   autoplay
 />

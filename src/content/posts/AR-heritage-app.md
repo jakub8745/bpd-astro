@@ -12,7 +12,7 @@ ARHeritageTour App is a pilot project to test the feasibility of using new techn
 
 <Video
   width="100%" controls loop autoplay
-  src="https://gateway.bluepointart.uk/ipfs/bafybeibegbgow3wag46fq6exe6otxvvyjyxvp7rjuoip3bqlsejelfxh3i"
+  src="https://bafybeibegbgow3wag46fq6exe6otxvvyjyxvp7rjuoip3bqlsejelfxh3i.ipfs.w3s.link/"
 />
 
 **How to Use the AR-Heritage App**  

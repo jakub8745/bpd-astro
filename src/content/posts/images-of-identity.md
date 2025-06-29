@@ -21,8 +21,8 @@ Artists:
 
 The virtual exhibition [‘Images of Identity’ (18.12.2020-18.02.2021 at 3D Blue Point Art Gallery, PUNO London)]() and [conference ‘Our Everyday Identity’](/images-of-identity-conference)  (11-12.12.2020) were parts of the interdisciplinary research project: “The Question of ‘Identity’ in an Interdisciplinary Approach″. The project was carried out in cooperation with the Institute of European Culture of the Polish University Abroad of the Ignacy Jan Paderewski in London (PUNO) and the Institute of Painting and Artistic Education of Art Department of the Pedagogical University of the National Commission in Cracow (UP)
 
-[Download PDF: Invitation_details](https://gateway.bluepointart.uk/ipfs/bafkreihqp77b4nai7qe737c5vq76t3xd5gkru7gshibebyyijckzjdetia)
-[Do ściagnięcia PDF: Zaproszenie_Szczegoly](https://gateway.bluepointart.uk/ipfs/bafkreihqp77b4nai7qe737c5vq76t3xd5gkru7gshibebyyijckzjdetia)<br><br>
+[Download PDF: Invitation_details](https://bafkreihqp77b4nai7qe737c5vq76t3xd5gkru7gshibebyyijckzjdetia.ipfs.w3s.link/)
+[Do ściagnięcia PDF: Zaproszenie_Szczegoly](https://bafkreihqp77b4nai7qe737c5vq76t3xd5gkru7gshibebyyijckzjdetia.ipfs.w3s.link/)<br><br>
 [The exhibition has been moved to the BPA archive. Click the link to visit it.](https://archive.bluepointart.uk/#identity)
 
 
