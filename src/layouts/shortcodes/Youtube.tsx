@@ -1,5 +1,5 @@
 import React from "react";
-import LiteYouTubeEmbed from "react-lite-youtube-embed";
+import LiteYouTubeEmbed from 'react-lite-youtube-embed/dist/index.js'; // 👈 Direct path to CommonJS default
 import "react-lite-youtube-embed/dist/LiteYouTubeEmbed.css";
 
 const Youtube = ({
